@@ -13,7 +13,7 @@
 # use grunt task `build` to synchronize assets
 
 # 以 GitHub Pages 為例
-baseURL = "https://Vincent3054.github.io/"
+baseURL = "https-vincent3054-github-io"
 languageCode = "en-us"
 defaultContentLanguage = "zh-tw"    # 預設語系
 title = "Note"
