@@ -13,12 +13,12 @@
 # use grunt task `build` to synchronize assets
 
 # 以 GitHub Pages 為例
-baseURL = "https-vincent3054-github-io"
+baseURL = "https://Vincent3054.github.io/"
 languageCode = "en-us"
 defaultContentLanguage = "zh-tw"    # 預設語系
 title = "Note"
 theme = "tranquilpeak"
-disqusShortname = "vincent3054.github.io"
+disqusShortname = "https-vincent3054-github-io"
 # googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
