@@ -7,7 +7,7 @@ title: "運用Hugo架設個人網站"
 tags : ["Side Project"]
 coverSize: partial
 coverImage: images/notes0001.jpg
-
+thumbnailImage: images/notes0001.jpg
 ---
 <!--more-->
 ## 如何使用 Hugo 在 GitHub 上架設個人網站？
