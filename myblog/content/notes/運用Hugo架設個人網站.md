@@ -10,6 +10,9 @@ coverImage: images/notes0001.jpg
 thumbnailImage: images/notes0001.jpg
 ---
 <!--more-->
+
+# 運用Hugo架設個人網站
+###### tags: `Side Project`
 ## 如何使用 Hugo 在 GitHub 上架設個人網站？
 ### 1. Chocolatey (Windows)
 如果你是使用 Windows 可透過 [chocolatey](https://chocolatey.org/) 安裝：
@@ -43,8 +46,9 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 
 ## 部落格布景
 git submodule add https://github.com/kakawait/hugo-tranquilpeak-theme.git themes/tranquilpeak
-
 ```
+[tranquilpeak佈景主題詳細設定官方文件](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md)
+
 編輯 config.toml 指定佈景名稱為 ananke (tranquilpeak 或別的)
 ```
 echo 'theme = "ananke"' >> config.toml
@@ -53,19 +57,19 @@ echo 'theme = "ananke"' >> config.toml
 ```
 hugo new posts/my-first-post.md
 ```
-檔案會被建立在 ==./content/posts/my-first-post.md== 底下。請注意，省略 ==.md== 的話，你的文件就不會被渲染到頁面上。
+檔案會被建立在 **./content/posts/my-first-post.md** 底下。請注意，省略 **.md** 的話，你的文件就不會被渲染到頁面上。
 
 執行以下指令，在本地運行 hugo 專案：
 ```
 hugo server -D
 ```
 訪問 http://localhost:1313/ ，網站已經在本地跑起來了
+
 :::danger
 如果遇到以下錯誤
 Error: "D:\github\myblog\config.toml:1:1": unmarshal failed: toml: key theme is already defined
 請開啟config.toml，把多餘的null刪除
 :::
-> https://kucw.github.io/blog/2021/1/from-medium-to-github/
 
 ## 5.瞭解Hugo 資料結構
 ```
@@ -148,7 +152,7 @@ choco install hugo-extended
 Hugo 提供了 Archetypes 作為內容模板，在新增 Content Page 時，根據 Content Type 翻印對應模板，新生成的檔案就有模板的 Front Matter 預先配置、文章基本段落等等，在由寫作者調整部分參數，快速進入寫作的環節。
 
 #### Archetypes 套用順序
-下指令 ==hugo new posts/my-first-post.md== 新增一份 Content Page 之後，翻印來源會依據指令、下列順序，找出有無符合模板，有的話則翻印一份產生新的文章：
+下指令 **hugo new posts/my-first-post.md** 新增一份 Content Page 之後，翻印來源會依據指令、下列順序，找出有無符合模板，有的話則翻印一份產生新的文章：
 
 * archetypes/posts.md
 * archetypes/default.md
@@ -236,6 +240,40 @@ Boom!!
 * coverMeta 設置文章 title 要放在 cover image 中央，還是外面
 * coverSize 設置文章 cover image 要大張還是小張
 
+### Hugo Shortcode 介紹
+#### Shortcode 簡介
+我們知道 Hugo Content 其內容主要是用 Markdown 這類文字標記語法所寫成，內容格式、可用語法較為基礎簡單，若是我們想要套用更多樣化的語法時，只用 Markdown 是做不到的，而且我們不能在 .md 中撰寫如 HTML 的語法，此時就可以透過 Hugo Shortcode 來為我們處理這一塊。
+
+#### Shortcode V.S. Hugo Template
+Shortcode 可以看作是「一小塊 HTML 程式片段」，與 Hugo Template 不同的是，前者通常運用在「插入特定用途」、「重複使用」的片段語法到 markdown 內容中，而後者則是作為 markdown content 的外殼載體、或是佈局規劃等，用以構成我們最後呈現的視圖頁面 (View)。
+
+換句話說，Template 有點像尚未擺放任何拼圖的底框，拼圖畫面則是文章內容，在使用 Shortcode 豐富其畫面的變化。
+
+#### hortcode 使用說明
+在專案底下新增以下結構資料：
+```
+./layouts
+└── shortcodes
+    └── img.html
+```
+shortcodes 資料夾用來放置所有 shortcode，資料夾名稱不可異動，大小寫也須完全相同。而底下的每一支 .html，例如 img.html 都是一支可以被插入到 .md 的 shortcode 原始碼。
+
+#### 插入圖片-hortcode
+
+Shortcodes 語法
+創建 Shortcode ./layout/shortcodes/img.html，內容如下：
+```
+<img src="{{ .Get `src` }}">
+```
+
+用法如下：
+```
+# 本地圖片 ./static/images/image1.png
+{{< img src="/images/image1.png" >}}
+
+# 外部圖片 https://i.imgur.com/D3fTjrl.png
+{{< img src="https://i.imgur.com/D3fTjrl.png" >}}
+```
 ## 8.部屬推版
 
 ```
@@ -264,6 +302,52 @@ $ git push or $ git push -u origin main
 此時你可以開啟 https://your-username.github.io 瀏覽看看網站是否已經部署成功，理論上不會等太久，就可以看到頁面了。
 https://Vincent3054.github.io
 
-:::spoiler
-https://ithelp.ithome.com.tw/users/20106430/ironman/3613
-:::
+## 9. Hugo SEO
+### Hugo Sitemap 與 Google Webmasters
+Hugo 內建產生網站 Sitemap 的服務，你可以透過修改 config.toml，去設置關於 Sitemap 的配置參數，以下是官方的[設置參數範例](https://gohugo.io/templates/sitemap-template/#configure-sitemapxml)：
+```
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+```
+你也可以透過自行創建 ./layouts/sitemap.xml，來覆蓋(取代) Hugo 內建的 sitemap.xml 內容。
+
+搞定 sitemap.xml 之後，在 Google 方面提供了 Search Console 介面，透過提交我們網站的 Sitemap.xml，告訴 Google 搜尋引擎，幫我們建立頁面索引，讓我們的網站頁面「可以被 Google」列出 (這只是 SEO 的其中一小步)。
+
+### Hugo 與 Google Analytics (GA)
+若網站頁面已經可以被 Google 搜尋到，我們可以透過 Google Analytics 工具，來觀察網站被訪問的情況；Hugo 已幫我們整合了 Google Analytics 工具，只要在 config.toml 中，設置參數 googleAnalytics 即可啟用 (建立新的 Google Analytics 可往這參考官方說明)。
+```
+googleAnalytics = "UA-XXXXXXXXX-X"
+```
+
+上面那串 UA-XXXXXXXXX-X 為 Google Analytics 帳戶的追蹤 ID，點擊介面左下角的「管理」，進去資源管理介面，點選「資源設定」，就會看到你的追蹤 ID：
+
+成功啟用之後，你可以在 Google Analytics 介面，看到已有接收到網站數據傳回：
+
+如果還沒有看到數據，而你確定有啟用成功，可以試著用不同裝置、網路、瀏覽器開無痕，去造訪你的網站，模擬自己是一個新訪客，靜候幾分鐘觀察看看。
+
+### robots.txt
+建立 ./layouts/robots.txt，讓搜尋引擎知道哪些資料夾、網站內容，是我們想要被檢索、搜尋的：
+```
+User-agent: *
+Disallow: 
+```
+(上例為允許任何搜尋引擎檢索網站的所有內容與資源，包括頁面、圖片)
+
+關於 robots.txt 詳細設置方式可以往這或這參考。
+
+### 小結
+* 在每篇文章中設置 Title、Keywords、Description
+* 建立社群平台對應的 partials template，讀取相關參數，放在全局 <head> 中
+* 承上，設置完整的 meta tags，有助於網址分享時的效果呈現
+* 提交 Sitemap.xml，讓網站頁面可以被 google 索引，被使用者搜尋到
+* 整合 Google Analytics，透過工具掌握頁面被搜尋到之後，網站被訪問的實際情況
+* 設置 robots.txt，定義哪些內容不想被搜尋檢索
+    
+今天超級淺的聊了一下 Hugo 在做 SEO 時提供的相關工具，讓沒接觸過的人，踏出了解做 SEO 的第一步，還有很多關於搜尋最佳化的作法、內容與學問可以探討，有興趣的讀者，推薦可以看看這篇 [PERFECT SEO META TAGS WITH HUGO](https://www.skcript.com/svr/perfect-seo-meta-tags-with-hugo/)，也希望有深耕過 SEO 經驗的讀者，能把你的心得做個分享留言，感謝。
+
+最後，筆者有個心得是，在開始研究 SEO 的這條路上，跟很多學問一樣，它是需要你不斷地更新資訊的，不是說感覺一時學有所成，就能十年不變的一套用到底，推薦你可以搜尋「SEO Checklist 2020」，或許可以有所獲得。
+
+## 參考連結
+[參考連結](https://ithelp.ithome.com.tw/users/20106430/ironman/3613)

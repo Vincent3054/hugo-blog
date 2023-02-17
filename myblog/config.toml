@@ -19,7 +19,7 @@ defaultContentLanguage = "zh-tw"    # 預設語系
 title = "Note"
 theme = "tranquilpeak"
 disqusShortname = "https-vincent3054-github-io"
-# googleAnalytics = "UA-123-45"
+# googleAnalytics = "G-KMNNV397T8"
 paginate = 7
 canonifyurls = true
 
@@ -54,7 +54,7 @@ canonifyurls = true
   # gravatarEmail = "ok96305@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "images/avatar2.png"
+  picture = "images/avatar3.png"
   # Your Twitter username without the @. E.g : thibaudlepretre
   # twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -387,3 +387,8 @@ canonifyurls = true
     icon = ""
     url = "/#about"
 
+# SEO 
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
