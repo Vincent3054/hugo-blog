@@ -1,16 +1,26 @@
 ---
+title: "[十分鐘]做出自己的AI助理"
+keywords :
+- AI
+- LineBot
+- ChatAI
+- Chat
+- ChatGPT
+- BOT
+- ChatBot
+- 10minute
+description : "串接ChatAI到LineBot，十分鐘做出自己的AI助理"
 categories:
-- Notes
+- 10minute
 - AI
 date: "2023-02-17"
-title: "五分鐘串接ChatAI至LineBot"
-tags : ["AI"]
+tags : ["AI","十分鐘"]
 coverSize: partial
 coverImage: images/notes0002.jpg
 thumbnailImage: images/notes0002.jpg
 ---
 <!--more-->
-# 五分鐘串接ChatAI至LineBot
+# [十分鐘]做出自己的AI助理
 ###### tags: `AI`
 
 ## Chat GPT簡介
