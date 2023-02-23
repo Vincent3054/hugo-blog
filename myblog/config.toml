@@ -14,9 +14,9 @@
 
 # 以 GitHub Pages 為例
 baseURL = "https://Vincent3054.github.io/"
-languageCode = "en-us"
+languageCode = "zh-tw"
 defaultContentLanguage = "zh-tw"    # 預設語系
-title = "Note"
+title = "Blog"
 theme = "tranquilpeak"
 disqusShortname = "https-vincent3054-github-io"
 # googleAnalytics = "G-KMNNV397T8"
@@ -128,7 +128,7 @@ canonifyurls = true
   # -----------
   # Description
   # -----------
-  description = "ai blog"
+  description = "blog"
 
   # ------------------
   # Syntax highlighter
