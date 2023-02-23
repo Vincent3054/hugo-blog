@@ -303,10 +303,10 @@ GitHub 是一個提供我們把本地 (簡言之就是自己的電腦) 檔案、
 # 獲取 Repository URL，例如 git@github.com:littlebookboy/littlebookboy.github.io.git
 
 # 進入到專案底下，打包你的網站，生成 public 資料夾
+$ cd your-site/
 $ hugo
 
 # 執行遠端資源庫地址註冊
-$ cd your-site/
 $ git init
 
 # your-username請自行修改成自己GitHub的帳號名稱
