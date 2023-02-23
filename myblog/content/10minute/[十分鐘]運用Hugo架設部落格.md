@@ -1,5 +1,5 @@
 ---
-title: "[十分鐘]運用Hugo十架設部落格"
+title: "[十分鐘]運用Hugo架設部落格"
 keywords :
 - 10minute
 - Hugo
@@ -8,7 +8,7 @@ keywords :
 - personalwe bsite
 - github page
 - side project
-description : "運用Hugo十架設部落格"
+description : "運用Hugo架設部落格"
 categories:
 - 10minute
 - Hugo
@@ -21,7 +21,7 @@ thumbnailImage: images/notes0001.jpg
 ---
 <!--more-->
 
-# [十分鐘]運用Hugo十架設部落格
+# [十分鐘]運用Hugo架設部落格
 ###### tags: `10minute` `Hugo`
 ## 使用 Hugo 在 GitHub 上架設個人網站
 ### Hugo是什麼?
