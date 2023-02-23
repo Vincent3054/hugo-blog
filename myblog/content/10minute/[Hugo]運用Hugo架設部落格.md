@@ -1,5 +1,5 @@
 ---
-title: "[十分鐘]運用Hugo架設部落格"
+title: "[Hugo]運用Hugo架設部落格"
 keywords :
 - 10minute
 - Hugo
@@ -8,7 +8,7 @@ keywords :
 - personalwe bsite
 - github page
 - side project
-description : "運用Hugo架設部落格"
+description : "[十分鐘系列]運用Hugo在GitHub Page架設部落格"
 categories:
 - 10minute
 - Hugo
@@ -21,10 +21,32 @@ thumbnailImage: images/notes0001.jpg
 ---
 <!--more-->
 
-# [十分鐘]運用Hugo架設部落格
+# [Hugo]運用Hugo架設部落格
 ###### tags: `10minute` `Hugo`
-## 使用 Hugo 在 GitHub 上架設個人網站
-### Hugo是什麼?
+
+## 目錄
+* <a href="#A">Hugo是什麼?</a>
+* <a href="#B">安裝Hugo</a>
+* <a href="#C">建立新專案</a>
+* <a href="#D">透過 git 安裝佈景主題</a>
+* <a href="#E">布景主題的相關設定</a>
+    * <a href="#E1">改config配置</a>
+    * <a href="#E2">透過 demo 知道佈景可以做到哪些事</a>
+* <a href="#F">Hugo資料結構</a>
+* <a href="#G">Hugo文章結構</a>
+    * <a href="#G1">Hugo Content - Front Matter
+</a>
+    * <a href="#G2">Front Matter Variables
+</a>
+* <a href="#H">部署推版至GitHub Pages</a>
+    * <a href="#H1">註冊 GitHub 帳號</a>
+    * <a href="#H2">建立一個 GitHub Repository</a>
+    * <a href="#H3">部署到 GitHub Pages</a>
+    * <a href="#H4">整個指令執行過程</a>
+    * <a href="#H5">瀏覽結果</a>
+
+## 內文
+<h3 id="A">Hugo是什麼?</h3>
 Hugo是一個由Go語言實現的靜態網站生成器，它可以讓你在短時間內從無到有架設一個網站。
 
 Hugo有以下幾個特點：
@@ -36,7 +58,7 @@ Hugo有以下幾個特點：
 * 彈性：Hugo可以**自動產生Sitemap和RSS**，並且提供許多自定義選項和擴展功能
 * 免費：Hugo是**開源**的軟件，你可以自由地使用和修改它
 
-### Step1. 安裝Hugo
+<h3 id="B">Step1. 安裝Hugo</h3>
 如果你是使用 Windows 可透過 [chocolatey](https://chocolatey.org/install) 安裝 Hugo：
 
 按下 Win鍵 + r 啟動「執行」對話框。輸入 powershell 後按 Enter 鍵即可啟動.NET Framework 版本的 **PowerShell**，按照順序在終端機輸入以下指令。
@@ -59,7 +81,7 @@ hugo version
 [Hugo官方網站](https://gohugo.io/)
 [PowerShell介紹]https://opensourcedoc.com/windows-programming/powershell/
 
-### Step2. 建立新專案
+<h3 id="C">Step2. 建立新專案</h3>
 在你安裝完 Hugo 指令後，可透過以下指令建置新專案：
 ```sql
 hugo new site myblog
@@ -80,7 +102,7 @@ Error: "D:\github\myblog\config.toml:1:1": unmarshal failed: toml: key theme is 
 ```
 請開啟config.toml，把多餘的null刪除
 
-### Step3. 透過 git 安裝佈景主題
+<h3 id="D">Step3. 透過 git 安裝佈景主題</h3>
 根據官網指引安裝佈景，在安裝前你必須先有 git，若你還沒有 git cli，需先安裝 [git](https://git-scm.com/downloads)。
 ```sql
 # 在專案目錄底下 ./myblog
@@ -114,11 +136,11 @@ hugo server -D
 choco install hugo-extended
 ```
 
-### Step4. 布景主題的相關設定
-這篇文使用Tranquilpeak的佈景主題來建立部落格，Tranquilpeak 是一款在視覺佈局上很適用於個人部落格撰文的 Hugo Themes (個人感覺)，建議在選用佈景時閱讀一下官方文件、並去試著做以下這幾件事：
+<h3 id="E"> Step4. 布景主題的相關設定</h3>
+這篇文使用「Tranquilpeak」的佈景主題來建立部落格，「Tranquilpeak」 是一款在視覺佈局上很適用於個人部落格撰文的 Hugo Themes (個人感覺)，建議在選用佈景時閱讀一下官方文件、並去試著做以下這幾件事：
 
-#### 1.改 config 配置
-佈景提供了 config 設置範例 (有些作者會補充說明，註解在 config 裡面) 給大家參考，放在 exampleSite 中，建議可以先以這份 config 為基礎去改設置參數；
+<h4 id="E1">1.改config配置</h4>
+佈景提供了config設置範例 (有些作者會補充說明，註解在 config 裡面) 給大家參考，放在 exampleSite 中，建議可以先以這份 config 為基礎去改設置參數；
 
 佈景本身也有提供 default 的 config，通常會放在該佈景第一層目錄底下，有個 theme.toml，要用哪一份開始設置就看個人。
 hugo-tranquilpeak-theme)
@@ -137,15 +159,15 @@ paginate = 7                        # 每頁顯示幾筆文章
 canonifyurls = true                 # 設為 true 讓全站資源網址都套用 baseURL
 ```
 
-#### 2.透過 demo 知道佈景可以做到哪些事
+<h4 id="E2">2.透過 demo 知道佈景可以做到哪些事</h4>
 是的，佈景也是有他各自不同的工具，能提供你讓你方便做到不同的事情，你可以先逛逛 Tranquilpeak (或其他)佈景 online demo，這能讓你不用本地套用，就可以直接先看看套用後整體呈現的效果、網站的布局會長什麼樣子；
 
 但不論你是使用哪種佈景，在配置上都萬變不離其宗 (若你喜歡的佈景做不到，但有看到別的佈景有，理論上自己也能仿照實作出來，不過門檻會稍微高一點)。
 
 #### 補充
-[Tranquilpeak官方文件](https://github.com/kakawait/
+[Tranquilpeak官方文件](https://github.com/kakawait/)
 
-### Step5. Hugo資料結構
+<h3 id="F">Step5. Hugo資料結構 </h3>
 ```
 .
 ├── archetypes
@@ -189,7 +211,7 @@ canonifyurls = true                 # 設為 true 讓全站資源網址都套用
 還有很多資料夾是 new site 時不會產生的，例如 assets、i18n、public，之後文章還會有機會帶到；明天會講要如何挑選佈景。
 
 
-### Step6. Hugo文章結構
+<h3 id="G">Step6. Hugo文章結構 </h3>
 文章模板的內容也體現出了作者在寫作時，對於每個種類的文章規劃的結構，筆者自己的文章基本上區分為：
 
 * Front Matter 區塊，在 .md 檔案內容最上面，有一塊用 --- 隔開的內容。
@@ -208,7 +230,7 @@ canonifyurls = true                 # 設為 true 讓全站資源網址都套用
 ---
 +++ Footer +++
 ```
-#### Hugo Content - Front Matter
+<h4 id="G1"> Hugo Content - Front Matter</h4>
 在架設部落格時，想要趕快搞定網站基礎設施與寫文環境，那你就必須先配置好你的 config、文章模板 archetypes，以及規劃模板中的 Front Matter 了。
 
 只要依據個人需求把 Front Matter 設置好，就能在每次 new post 翻印出新的文章檔案時，改一改幾個特定參數，就能開始動手寫，縮短「建立新檔 -> 寫文章」這段時間，今天就帶大家認識一下什麼是 Hugo Front Matter。
@@ -227,7 +249,7 @@ title: "我是 yaml 格式的 Front Matter"
 Boom!!
 ```
 
-#### Front Matter Variables
+<h4 id="G2"> Front Matter Variables</h4>
 在 Front Matter 中有許多可設置變數，以下介紹幾個筆者常用的參數：
 
 **定義文章標題、描述、作者**
@@ -255,19 +277,19 @@ Boom!!
 * coverMeta 設置文章 title 要放在 cover image 中央，還是外面
 * coverSize 設置文章 cover image 要大張還是小張
 
-### Step7. 部署推版至GitHub Pages
+<h3 id="H">Step7. 部署推版至GitHub Pages</h3>
 GitHub 是一個提供我們把本地 (簡言之就是自己的電腦) 檔案、程式碼、離離扣扣的東西，透過``` git``` 版本控制，將檔案推到遠端 (簡言之就是別人的電腦) 委託給 GitHub 保管的服務平台。
 
 今天要介紹的內容主要包括 GitHub 註冊、把網站放 (部署) 到 GitHub Pages 上、一點點的 git 操作，一點點的版本控制指令等，對於沒有使用過 ```git```，甚至是對程式碼、版本控制這些東西都很陌生的人，建議可以先 [google 一輪](https://backlog.com/git-tutorial/tw/reference/basic.html)，有個概念，最重要的是，為你的電腦安裝好[Git CLI](https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-Git-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8)。
 
-#### 註冊 GitHub 帳號
+<h4 id="H1">註冊 GitHub 帳號</h3>
 到官網註冊 https://github.com/
 
 圖1
 
 順帶一提，若之後沒有想要特別買網址，這邊的 username 會是網站網址的一部分 (GitHub Pages 默認)，但若是不 care 網址長怎樣，建議使用自己習慣的「常用帳號」作為 username。
 
-#### 建立一個 GitHub Repository
+<h4 id="H2">建立一個 GitHub Repository</h4>
 * 註冊完成之後，轉跳到這個畫面，請點右上角的 ＋：
 圖2
 
@@ -277,7 +299,7 @@ GitHub 是一個提供我們把本地 (簡言之就是自己的電腦) 檔案、
 * 請注意，Repository name 一定要填入 your-username.github.io，以筆者自己為例，我的 username 是 littlebookboy，則建立資源庫名稱就要使用 littlebookboy.github.io，這是 GitHub Pages 的機制；填寫完必要資訊，按下建立：
 圖4
 
-#### 部署到 GitHub Pages
+<h4 id="H3">部署到 GitHub Pages</h4>
 以下說明會以筆者的 Repository 為例。
 
 * cd 到 Hugo 專案底下，執行 hugo 指令，打包你的 Hugo Site：
@@ -297,7 +319,7 @@ GitHub 是一個提供我們把本地 (簡言之就是自己的電腦) 檔案、
 * 提交完成後，下 git push：
 圖9
 
-#### 整個指令執行過程
+<h4 id="H4">整個指令執行過程</h4>
 
 ```
 # 獲取 Repository URL，例如 git@github.com:littlebookboy/littlebookboy.github.io.git
@@ -323,7 +345,8 @@ $ git branch -M main
 # 推送 commit
 $ git push or $ git push -u origin main
 ```
-### 瀏覽結果
+
+<h4 id="H5">瀏覽結果</h4>
 此時你可以開啟 https://your-username.github.io 瀏覽看看網站是否已經部署成功，理論上不會等太久，就可以看到頁面了。
 https://your-username.github.io
 
@@ -332,5 +355,6 @@ Hugo SEO(搜尋引擎最佳化) 會在寫一個文章說明
 Hugo Comments System (留言板) 會在寫一個文章說明
 
 ## 來源連結
-https://ithelp.ithome.com.tw/users/20106430/ironman/3613
-ChatGPT
+[原文](https://ithelp.ithome.com.tw/users/20106430/ironman/3613)
+
+[ChatGPT](https://openai.com/blog/chatgpt/)
