@@ -393,5 +393,25 @@ canonifyurls = true
   filename = "sitemap.xml"
   priority = 0.5
 
-# 允許使用 HTML 標籤
-unsafe = true 
+# 允許使用 HTML 標籤 unsafe = true 
+[markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      wrapStandAloneImageWithinParagraph = true
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true 
+      xhtml = false

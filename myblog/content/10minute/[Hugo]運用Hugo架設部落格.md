@@ -45,6 +45,9 @@ thumbnailImage: images/notes0001.jpg
 
 ## 內文
 <h3 id="A">Hugo是什麼?</h3>
+
+![]( /images/20230224001.png)
+
 Hugo是一個由Go語言實現的靜態網站生成器，它可以讓你在短時間內從無到有架設一個網站。
 
 Hugo有以下幾個特點：
@@ -57,6 +60,7 @@ Hugo有以下幾個特點：
 * 免費：Hugo是**開源**的軟件，你可以自由地使用和修改它
 
 <h3 id="B">Step1. 安裝Hugo</h3>
+
 如果你是使用 Windows 可透過 [chocolatey](https://chocolatey.org/install) 安裝 Hugo：
 
 按下 Win鍵 + r 啟動「執行」對話框。輸入 powershell 後按 Enter 鍵即可啟動.NET Framework 版本的 **PowerShell**，按照順序在終端機輸入以下指令。
@@ -80,48 +84,58 @@ hugo version
 [PowerShell介紹]https://opensourcedoc.com/windows-programming/powershell/
 
 <h3 id="C">Step2. 建立新專案</h3>
+
 在你安裝完 Hugo 指令後，可透過以下指令建置新專案：
 ```sql
 hugo new site myblog
 ```
 結果如下：
-https://ithelp.ithome.com.tw/upload/images/20200917/20106430DdTeEqpbUk.png
+
+![]( /images/20230224003.png)
 
 cd 進入到目錄中我們可以看到最初的專案資料夾有以下這幾個：
-https://ithelp.ithome.com.tw/upload/images/20200917/201064300G8Gg3VGV5.png
+
+![]( /images/20230224004.png)
 
 #### 補充連結
 [Hugo官方文件介紹](https://gohugo.io/getting-started/quick-start/)
 
 #### 常見BUG
 如果遇到以下錯誤
-```
+```sql=
 Error: "D:\github\myblog\config.toml:1:1": unmarshal failed: toml: key theme is already defined
 ```
 請開啟config.toml，把多餘的null刪除
 
 <h3 id="D">Step3. 透過 git 安裝佈景主題</h3>
+
 根據官網指引安裝佈景，在安裝前你必須先有 git，若你還沒有 git cli，需先安裝 [git](https://git-scm.com/downloads)。
-```sql
+
+```sql=
 # 在專案目錄底下 ./myblog
 git init
 git submodule add https://github.com/kakawait/hugo-tranquilpeak-theme.git themes/tranquilpeak
 ```
 編輯 config.toml 指定佈景名稱為 tranquilpeak
-```sql
+
+```sql=
 //也可手動開啟檔案修改
 echo 'theme = "tranquilpeak"' >> config.toml
 ```
 為了在本地跑起來時可以看到點內容，我們先新增一篇文章
-```sql
+
+```sql=
 hugo new posts/my-first-post.md
 ```
 檔案會被建立在 ```./content/posts/my-first-post.md``` 底下。請注意，省略 ```.md``` 的話，你的文件就不會被渲染到頁面上。
 執行以下指令，在本地運行 hugo 專案：
-```
+
+```sql=
 hugo server -D
 ```
-訪問 http://localhost:1313/，網站就可以成功在本地跑起來了!
+訪問 http://localhost:1313/  網站就可以成功在本地跑起來了!
+
+![]( /images/20230224005.png)
 
 #### 補充
 [Git 安裝教學](https://w3c.hexschool.com/git/3f9497cd)
@@ -130,34 +144,40 @@ hugo server -D
 
 #### 常見BUG
 如果遇到布景buid的時候顯示error，不支援scss問題 請安裝以下hugo版本
-```
+
+```sql=
 choco install hugo-extended
 ```
 
 <h3 id="E"> Step4. 布景主題的相關設定</h3>
+
 這篇文使用「Tranquilpeak」的佈景主題來建立部落格，「Tranquilpeak」 是一款在視覺佈局上很適用於個人部落格撰文的 Hugo Themes (個人感覺)，建議在選用佈景時閱讀一下官方文件、並去試著做以下這幾件事：
 
 <h4 id="E1">1.改config配置</h4>
+
 佈景提供了config設置範例 (有些作者會補充說明，註解在 config 裡面) 給大家參考，放在 exampleSite 中，建議可以先以這份 config 為基礎去改設置參數；
 
 佈景本身也有提供 default 的 config，通常會放在該佈景第一層目錄底下，有個 theme.toml，要用哪一份開始設置就看個人。
 hugo-tranquilpeak-theme)
 ##### copy the example config.toml
 你可以先複製他提供的範例配置，之後依需求改變部分設置參數，這樣就不用重頭到尾自己設定：
-```sql
+
+```sql=
 cp themes/tranquilpeak/exampleSite/config.toml ./config.toml
 ```
 ##### config配置範例
-```sql
+
+```sql=
 baseURL = "https://Vincent3054.github.io/" # 部署到線上之後要使用的主要域名 = FQDN 或GitPage URL
-defaultContentLanguage = "zh-tw"    # 預設語系
-title = "Blog"                # 網站 title
-theme = "tranquilpeak"              # 指定使用的佈景 (與資料夾名稱一樣)
-paginate = 7                        # 每頁顯示幾筆文章
-canonifyurls = true                 # 設為 true 讓全站資源網址都套用 baseURL
+defaultContentLanguage = "zh-tw"           # 預設語系
+title = "Blog"                             # 網站 title
+theme = "tranquilpeak"                     # 指定使用的佈景 (與資料夾名稱一樣)
+paginate = 7                               # 每頁顯示幾筆文章
+canonifyurls = true                        # 設為 true 讓全站資源網址都套用 baseURL
 ```
 
 <h4 id="E2">2.透過 demo 知道佈景可以做到哪些事</h4>
+
 是的，佈景也是有他各自不同的工具，能提供你讓你方便做到不同的事情，你可以先逛逛 Tranquilpeak (或其他)佈景 online demo，這能讓你不用本地套用，就可以直接先看看套用後整體呈現的效果、網站的布局會長什麼樣子；
 
 但不論你是使用哪種佈景，在配置上都萬變不離其宗 (若你喜歡的佈景做不到，但有看到別的佈景有，理論上自己也能仿照實作出來，不過門檻會稍微高一點)。
@@ -166,7 +186,8 @@ canonifyurls = true                 # 設為 true 讓全站資源網址都套用
 [Tranquilpeak官方文件](https://github.com/kakawait/)
 
 <h3 id="F">Step5. Hugo資料結構 </h3>
-```
+
+```sql=
 .
 ├── archetypes
 ├── config.toml
@@ -175,7 +196,9 @@ canonifyurls = true                 # 設為 true 讓全站資源網址都套用
 ├── layouts
 ├── static
 └── themes
+
 ```
+
 * archetypes
 放文章模板文件的地方，當你 new 一個新的 content files 時，會根據這邊的模板產生 markdown 文件，例如 archetypes/default.md，若你 new 的文章頂層資料夾名稱 (top level path) 對應不到模板時，會使用 default.md 作為模板生成文件。
 
@@ -210,11 +233,13 @@ canonifyurls = true                 # 設為 true 讓全站資源網址都套用
 
 
 <h3 id="G">Step6. Hugo文章結構 </h3>
+
 文章模板的內容也體現出了作者在寫作時，對於每個種類的文章規劃的結構，筆者自己的文章基本上區分為：
 
 * Front Matter 區塊，在 .md 檔案內容最上面，有一塊用 --- 隔開的內容。
 * Body 區塊，也就是文章內容區塊，緊接在 Front Matter 之後，主要會使用檔 markdown 語法，以及 shortcode 的地方。
 * Footer: 此區域用以標示文章作者、永久鏈結，以及與文章許可協議。
+
 ```
 ---
 
@@ -228,12 +253,15 @@ canonifyurls = true                 # 設為 true 讓全站資源網址都套用
 ---
 +++ Footer +++
 ```
+
 <h4 id="G1"> Hugo Content - Front Matter</h4>
+
 在架設部落格時，想要趕快搞定網站基礎設施與寫文環境，那你就必須先配置好你的 config、文章模板 archetypes，以及規劃模板中的 Front Matter 了。
 
 只要依據個人需求把 Front Matter 設置好，就能在每次 new post 翻印出新的文章檔案時，改一改幾個特定參數，就能開始動手寫，縮短「建立新檔 -> 寫文章」這段時間，今天就帶大家認識一下什麼是 Hugo Front Matter。
 
 在每個文章檔案 .md 中，放在內容最前面那塊以 - - - 分隔的區塊內容，就是 Front Matter (- - - 只是其中一種格式)；Hugo 支援四種 Front Matter 格式：
+
 ```ysml=
 ---
 categories:
@@ -248,6 +276,7 @@ Boom!!
 ```
 
 <h4 id="G2"> Front Matter Variables</h4>
+
 在 Front Matter 中有許多可設置變數，以下介紹幾個筆者常用的參數：
 
 **定義文章標題、描述、作者**
@@ -276,50 +305,62 @@ Boom!!
 * coverSize 設置文章 cover image 要大張還是小張
 
 <h3 id="H">Step7. 部署推版至GitHub Pages</h3>
-GitHub 是一個提供我們把本地 (簡言之就是自己的電腦) 檔案、程式碼、離離扣扣的東西，透過``` git``` 版本控制，將檔案推到遠端 (簡言之就是別人的電腦) 委託給 GitHub 保管的服務平台。
+
+GitHub 是一個提供我們把本地 (簡言之就是自己的電腦) 檔案、程式碼、離離扣扣的東西，透過```git```版本控制，將檔案推到遠端 (簡言之就是別人的電腦) 委託給 GitHub 保管的服務平台。
 
 今天要介紹的內容主要包括 GitHub 註冊、把網站放 (部署) 到 GitHub Pages 上、一點點的 git 操作，一點點的版本控制指令等，對於沒有使用過 ```git```，甚至是對程式碼、版本控制這些東西都很陌生的人，建議可以先 [google 一輪](https://backlog.com/git-tutorial/tw/reference/basic.html)，有個概念，最重要的是，為你的電腦安裝好[Git CLI](https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-Git-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8)。
 
 <h4 id="H1">註冊 GitHub 帳號</h3>
+
 到官網註冊 https://github.com/
 
-圖1
+![]( /images/20230224006.jpg)
 
 順帶一提，若之後沒有想要特別買網址，這邊的 username 會是網站網址的一部分 (GitHub Pages 默認)，但若是不 care 網址長怎樣，建議使用自己習慣的「常用帳號」作為 username。
 
 <h4 id="H2">建立一個 GitHub Repository</h4>
+
 * 註冊完成之後，轉跳到這個畫面，請點右上角的 ＋：
-圖2
+
+![]( /images/20230224007.jpg)
 
 * 按下 New repository，建立一個新的資源庫
-圖3
+
+![]( /images/20230224008.jpg)
 
 * 請注意，Repository name 一定要填入 your-username.github.io，以筆者自己為例，我的 username 是 littlebookboy，則建立資源庫名稱就要使用 littlebookboy.github.io，這是 GitHub Pages 的機制；填寫完必要資訊，按下建立：
-圖4
+
+![]( /images/20230224009.jpg)
 
 <h4 id="H3">部署到 GitHub Pages</h4>
+
 以下說明會以筆者的 Repository 為例。
 
 * cd 到 Hugo 專案底下，執行 hugo 指令，打包你的 Hugo Site：
-圖5
+
+![]( /images/20230224010.jpg)
 
 若是要連同草稿、未來發布等文章一併打包，請下配合的參數，例如 hugo -D。
 
 * 複製剛剛建立好的 Repository URL，位置在：
-圖6
+
+![]( /images/20230224011.jpg)
 
 * 執行 git remote 註冊，註冊好遠端地址後，可下 git remote -v 列出看看：
-圖7
+
+![]( /images/20230224012.jpg)
 
 * 將目前異動提交成一個 commit：
-圖8
+
+![]( /images/20230224013.jpg)
 
 * 提交完成後，下 git push：
-圖9
+
+![]( /images/20230224014.jpg)
 
 <h4 id="H4">整個指令執行過程</h4>
 
-```
+```sql=
 # 獲取 Repository URL，例如 git@github.com:littlebookboy/littlebookboy.github.io.git
 
 # 進入到專案底下，打包你的網站，生成 public 資料夾
@@ -345,8 +386,11 @@ $ git push or $ git push -u origin main
 ```
 
 <h4 id="H5">瀏覽結果</h4>
+
 此時你可以開啟 https://your-username.github.io 瀏覽看看網站是否已經部署成功，理論上不會等太久，就可以看到頁面了。
 https://your-username.github.io
+
+![]( /images/20230224002.png)
 
 ## 補充
 Hugo SEO(搜尋引擎最佳化) 會在寫一個文章說明
