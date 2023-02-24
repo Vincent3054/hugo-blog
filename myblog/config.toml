@@ -393,5 +393,5 @@ canonifyurls = true
   filename = "sitemap.xml"
   priority = 0.5
 
-# 來允許使用 HTML 標籤
+# 允許使用 HTML 標籤
 unsafe = true 
