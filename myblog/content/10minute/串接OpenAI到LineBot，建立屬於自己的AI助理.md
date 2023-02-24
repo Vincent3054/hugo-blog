@@ -158,5 +158,7 @@ GPT AI Assistant 是基於 **OpenAI API** 與 **LINE Messaging API** 實作的�
 
 ## 來源連結
 [原文](https://www.liva.tw/make-your-line-oa-as-smart-as-chatgpt-in-10-minutes/)
+
 [專案網址](https://github.com/memochou1993/gpt-ai-assistant/blob/main/README.md)
+
 [ChatGPT](https://openai.com/blog/chatgpt/)

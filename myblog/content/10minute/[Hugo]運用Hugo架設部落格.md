@@ -81,6 +81,7 @@ hugo version
 
 #### 補充連結
 [Hugo官方網站](https://gohugo.io/)
+
 [PowerShell介紹]https://opensourcedoc.com/windows-programming/powershell/
 
 <h3 id="C">Step2. 建立新專案</h3>
@@ -109,14 +110,14 @@ Error: "D:\github\myblog\config.toml:1:1": unmarshal failed: toml: key theme is 
 
 <h3 id="D">Step3. 透過 git 安裝佈景主題</h3>
 
-根據官網指引安裝佈景，在安裝前你必須先有 git，若你還沒有 git cli，需先安裝 [git](https://git-scm.com/downloads)。
+根據官網指引安裝佈景，在安裝前你必須先有 git，若你還沒有 GitCLI，需先安裝 [git](https://git-scm.com/downloads)。
 
 ```sql=
 # 在專案目錄底下 ./myblog
 git init
 git submodule add https://github.com/kakawait/hugo-tranquilpeak-theme.git themes/tranquilpeak
 ```
-編輯 config.toml 指定佈景名稱為 tranquilpeak
+編輯 config.toml **指定佈景名稱為 tranquilpeak**
 
 ```sql=
 //也可手動開啟檔案修改
@@ -139,7 +140,9 @@ hugo server -D
 
 #### 補充
 [Git 安裝教學](https://w3c.hexschool.com/git/3f9497cd)
+
 [tranquilpeak佈景主題詳細設定官方文件](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md)
+
 [Hugo布景主題下載](https://themes.gohugo.io/tags/blog/)
 
 #### 常見BUG
@@ -157,8 +160,7 @@ choco install hugo-extended
 
 佈景提供了config設置範例 (有些作者會補充說明，註解在 config 裡面) 給大家參考，放在 exampleSite 中，建議可以先以這份 config 為基礎去改設置參數；
 
-佈景本身也有提供 default 的 config，通常會放在該佈景第一層目錄底下，有個 theme.toml，要用哪一份開始設置就看個人。
-hugo-tranquilpeak-theme)
+佈景本身也有提供 default 的 config，通常會放在該佈景第一層目錄底下，有個 theme.toml，要用哪一份開始設置就看個人。)
 ##### copy the example config.toml
 你可以先複製他提供的範例配置，之後依需求改變部分設置參數，這樣就不用重頭到尾自己設定：
 
@@ -174,6 +176,22 @@ title = "Blog"                             # 網站 title
 theme = "tranquilpeak"                     # 指定使用的佈景 (與資料夾名稱一樣)
 paginate = 7                               # 每頁顯示幾筆文章
 canonifyurls = true                        # 設為 true 讓全站資源網址都套用 baseURL
+```
+
+如果希望文章內文也可以用HTML語法，可以新增這段配置**將unsafe設定成true**
+
+```sql=
+[markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      wrapStandAloneImageWithinParagraph = true
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
 ```
 
 <h4 id="E2">2.透過 demo 知道佈景可以做到哪些事</h4>
@@ -202,11 +220,14 @@ canonifyurls = true                        # 設為 true 讓全站資源網址�
 * archetypes
 放文章模板文件的地方，當你 new 一個新的 content files 時，會根據這邊的模板產生 markdown 文件，例如 archetypes/default.md，若你 new 的文章頂層資料夾名稱 (top level path) 對應不到模板時，會使用 default.md 作為模板生成文件。
 
+
 * config.toml
 網站 environments 配置檔，所有網站建置參數都可在此設置，之後文章有提到或使用相關設置時會在個別說明。
 
+
 * content
 所有 new 出來的文章都會放在這；如果你想要把文章個別分不同的 setion (top level path)，例如 drafts（草稿）、posts（已發布文章），可透過新增文章指令，指定的不同頂層路徑，生成文件到不同資料夾中。
+
 
 * data
 我目前還沒使用到這個資料夾，依照官方說法是，你可以把一些資料集放在這，支援格式有 YAML, JSON, 或是 TOML；換句話說，這可以當作你的資料庫使用，例如你的網站是專門介紹咖啡的，你有一組每個縣市最好喝的咖啡清單，就可以在這邊創建：
@@ -222,11 +243,14 @@ canonifyurls = true                        # 設為 true 讓全站資源網址�
 * layouts
 你的靜態網站的 .html 文件都會放在這，但你 new 的專案一開始會是空的，主要都是由佈景建構 layouts。
 
+
 * static
 靜態資源檔案，例如圖片、js、css 等會放在這邊。
 
+
 * themes
 放各種佈景的地方，如果不常換來換去的話，底下只會放一種佈景，你可以建置一個 sandbox，透過 --theme 參數去切換嘗試各種不同佈景，在本地跑起來看看他們的樣子。
+
 
 * 其他
 還有很多資料夾是 new site 時不會產生的，例如 assets、i18n、public，之後文章還會有機會帶到；明天會講要如何挑選佈景。
@@ -237,7 +261,9 @@ canonifyurls = true                        # 設為 true 讓全站資源網址�
 文章模板的內容也體現出了作者在寫作時，對於每個種類的文章規劃的結構，筆者自己的文章基本上區分為：
 
 * Front Matter 區塊，在 .md 檔案內容最上面，有一塊用 --- 隔開的內容。
+
 * Body 區塊，也就是文章內容區塊，緊接在 Front Matter 之後，主要會使用檔 markdown 語法，以及 shortcode 的地方。
+
 * Footer: 此區域用以標示文章作者、永久鏈結，以及與文章許可協議。
 
 ```
@@ -393,7 +419,9 @@ https://your-username.github.io
 ![]( /images/20230224002.png)
 
 ## 補充
+
 Hugo SEO(搜尋引擎最佳化) 會在寫一個文章說明
+
 Hugo Comments System (留言板) 會在寫一個文章說明
 
 ## 來源連結
