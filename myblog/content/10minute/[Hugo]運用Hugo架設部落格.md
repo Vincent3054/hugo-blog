@@ -5,10 +5,12 @@ keywords :
 - Hugo
 - website
 - personal
-- personalwe bsite
 - github page
 - side project
+- blog
 description : "[十分鐘系列]運用Hugo在GitHub Page架設部落格"
+author : "Sky Chen"
+slug: hugo-github-page-blog
 categories:
 - 10minute
 - Hugo
