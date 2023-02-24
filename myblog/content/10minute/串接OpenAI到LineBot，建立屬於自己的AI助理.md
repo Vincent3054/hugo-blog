@@ -72,11 +72,12 @@ https://www.techbang.com/posts/102473-openai-footprint-chatgpt
 GPT AI Assistant 是基於 **OpenAI API** 與 **LINE Messaging API** 實作的範例應用程式，透過安裝步驟，你可以使用 LINE 手機應用程式與你專屬的 AI 助理聊天。
 
 #### 範例
-![]( /images/20230223002.png)
+![]( /images/20230223002.png =50%)
 
-![]( /images/20230223003.png)
+![]( /images/20230223003.png =50%)
 
 <h3 id="D"> Step1.申請帳號 </h3>
+
 要能在10分鐘內快速安裝，首先要先準備以下帳號
 
 * [OpenAI 平台帳號](https://beta.openai.com/signup)
@@ -86,6 +87,7 @@ GPT AI Assistant 是基於 **OpenAI API** 與 **LINE Messaging API** 實作的�
 
 
 <h3 id="E"> Step2.首先申請 OpenAI 帳號才能與LINE 官方帳號串接</h3>
+
 申請好 OpenAI 帳號後，在 API Keys 建立一個 Secret key (要 copy 下來備用)
 
 <h3 id="F"> Step3.登入 LINE 官方帳號 </h3>
