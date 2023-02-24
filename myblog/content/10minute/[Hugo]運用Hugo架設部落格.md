@@ -25,25 +25,23 @@ thumbnailImage: images/notes0001.jpg
 ###### tags: `10minute` `Hugo`
 
 ## 目錄
-* <a href="#A">Hugo是什麼?</a>
-* <a href="#B">安裝Hugo</a>
-* <a href="#C">建立新專案</a>
-* <a href="#D">透過 git 安裝佈景主題</a>
-* <a href="#E">布景主題的相關設定</a>
-    * <a href="#E1">改config配置</a>
-    * <a href="#E2">透過 demo 知道佈景可以做到哪些事</a>
-* <a href="#F">Hugo資料結構</a>
-* <a href="#G">Hugo文章結構</a>
-    * <a href="#G1">Hugo Content - Front Matter
-</a>
-    * <a href="#G2">Front Matter Variables
-</a>
-* <a href="#H">部署推版至GitHub Pages</a>
-    * <a href="#H1">註冊 GitHub 帳號</a>
-    * <a href="#H2">建立一個 GitHub Repository</a>
-    * <a href="#H3">部署到 GitHub Pages</a>
-    * <a href="#H4">整個指令執行過程</a>
-    * <a href="#H5">瀏覽結果</a>
+* [Hugo是什麼?](#A)
+* [安裝Hugo](#B)
+* [建立新專案](#C)
+* [透過 git 安裝佈景主題](#D)
+* [布景主題的相關設定](#E)
+    * [改config配置](#E1)
+    * [透過 demo 知道佈景可以做到哪些事](#E2)
+* [Hugo資料結構](#F)
+* [Hugo文章結構](#G)
+    * [Hugo Content - Front Matter](#G1)
+    * [Front Matter Variables](#G2)
+* [部署推版至GitHub Pages](#H)
+    * [註冊 GitHub 帳號](#H1)
+    * [建立一個 GitHub Repository](#H2)
+    * [部署到 GitHub Pages](#H3)
+    * [整個指令執行過程](#H4)
+    * [瀏覽結果](#H5)
 
 ## 內文
 <h3 id="A">Hugo是什麼?</h3>
