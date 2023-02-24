@@ -28,7 +28,7 @@ thumbnailImage: images/notes0001.jpg
 * [Hugo是什麼?](#A)
 * [安裝Hugo](#B)
 * [建立新專案](#C)
-* [透過 git 安裝佈景主題](#D)
+* [透過 Git 安裝佈景主題](#D)
 * [布景主題的相關設定](#E)
     * [改config配置](#E1)
     * [透過 demo 知道佈景可以做到哪些事](#E2)
@@ -82,7 +82,7 @@ hugo version
 #### 補充連結
 [Hugo官方網站](https://gohugo.io/)
 
-[PowerShell介紹]https://opensourcedoc.com/windows-programming/powershell/
+[PowerShell介紹](https://opensourcedoc.com/windows-programming/powershell/)
 
 <h3 id="C">Step2. 建立新專案</h3>
 
@@ -108,7 +108,7 @@ Error: "D:\github\myblog\config.toml:1:1": unmarshal failed: toml: key theme is 
 ```
 請開啟config.toml，把多餘的null刪除
 
-<h3 id="D">Step3. 透過 git 安裝佈景主題</h3>
+<h3 id="D">Step3. 透過Git安裝佈景主題</h3>
 
 根據官網指引安裝佈景，在安裝前你必須先有 git，若你還沒有 GitCLI，需先安裝 [git](https://git-scm.com/downloads)。
 
