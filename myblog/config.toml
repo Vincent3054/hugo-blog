@@ -357,17 +357,17 @@ canonifyurls = true
   # --------------
   [params.comment]
     [params.comment.disqus]
-      enable = true
+      enable = false
       shortname = "hugo-tranquilpeak-theme"
     [params.comment.gitalk]
-      enable = false
-      # clientId =
-      # clientSecret =
-      # owner =
-      # repo =
+      enable = true
+      clientId = "13ab4cf55a20f60eaae5"
+      clientSecret = "fc9e6f4d6193d80cb52323bb94c84e1f0b9f36c2"
+      owner = "vincent3054"
+      repo = "vincent3054.github.io"
       # See all options: https://github.com/gitalk/gitalk#options
       [params.comment.gitalk.options]
-        language = "en"
+        language = "zh-tw"
         perPage = 10
         distractionFreeMode = false
         enableHotKey = true
