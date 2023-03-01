@@ -19,7 +19,7 @@ defaultContentLanguage = "zh-tw"    # 預設語系
 title = "Blog"
 theme = "tranquilpeak"
 disqusShortname = "https-vincent3054-github-io"
-# googleAnalytics = "G-KMNNV397T8"
+googleAnalytics = "G-KMNNV397T8"
 paginate = 7
 canonifyurls = true
 
@@ -37,9 +37,9 @@ canonifyurls = true
 [markup]
   # Set startLevel = 1 to support # title (<h1>title</h1>) otherwise table of content is blank/empty
   [markup.tableOfContents]
-    endLevel = 3
+    endLevel = 4
     ordered = false
-    startLevel = 1
+    startLevel = 2
   defaultMarkdownHandler = "blackfriday"
 
 # ------
@@ -346,7 +346,7 @@ canonifyurls = true
   #      gravatarEmail =
   # Google Analytics
   #  >> See googleAnalytics
-  #    googleAnalytics =
+  #    googleAnalytics = G-KMNNV397T8
   # Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
   #  fbAdminIds =
   # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307

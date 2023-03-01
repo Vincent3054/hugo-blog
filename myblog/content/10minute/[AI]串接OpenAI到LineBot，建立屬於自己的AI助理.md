@@ -25,13 +25,13 @@ thumbnailImage: images/notes0002.jpg
 <!--more-->
 
 # [AI]串接OpenAI到LineBot，建立屬於自己的AI助理
-###### tags: `10minute` `AI` 
+tags: `10minute` `AI` 
 
-## 目錄
+{{< toc >}}
 
 ## 內文
 
-<h3 id="A">OpenAI是什麼?</h3>
+### OpenAI是什麼?
 
 OpenAI 是美國一個人工智慧（AI）研究實驗室，創始人為**伊隆·馬斯克**（沒錯就是特斯拉那位）以及山姆·柯曼，原先為一個非營利組織，其使命是創造通用人工智能（英文：Artificial General Intelligence，簡稱 AGI），促進和發展友好的人工智慧，使人類整體受益，後來因為營運的成本所成立一個子公司營利組織 OpenAI LP。
 **OpenAI 每一年都會陸續推出自己所研發出的成果，從 GPT-1 到 GPT-3.5 都是他們所創造的成品**。
@@ -39,7 +39,7 @@ OpenAI 是美國一個人工智慧（AI）研究實驗室，創始人為**伊隆
 > OpenAI 官方網站
 https://openai.com/
 
-<h3 id="B">Chat GPT是什麼?</h3>
+### Chat GPT是什麼?
 
 ChatGPT 是由 OpenAI 開發的自然語言處理（NLP)模型「GPT-3」延伸出的「GPT-3.5」製作的，基於 人類反饋強化學習(RLHF) 進行訓練，簡單來說就是**人類提問機器答、機器提問人類答，並且不斷迭代，再排除掉不健康的答案，透過人類干預以增強機器學習的效果**，獲得更為逼真的結果。
 
@@ -49,7 +49,7 @@ ChatGPT 二個月內，已經吸引超過1億人使用，而 ChatGPT 功能強�
 
 ![]( /images/20230223001.png)
 
-<h4 id="B1">GPT-3 VS GPT-3.5 </h4>
+#### GPT-3 VS GPT-3.5
 
 現在我們知道了 ChatGPT 是經過 GPT-3.5 訓練而來的，那到底 GPT-3 跟 GPT-3.5 又是什麼東西呢？
 * GPT-3
@@ -69,7 +69,7 @@ GPT-3.5 則是由 GPT-3 微調出來的版本，而其中 GPT-3.5 使用與 GPT-
 > 關於 GPT 各代的差異
 https://www.techbang.com/posts/102473-openai-footprint-chatgpt
 
-<h3 id="C">建立屬於自己的 GPT AI Assistant</h3>
+### 建立屬於自己的 GPT AI Assistant
 
 GPT AI Assistant 是基於 **OpenAI API** 與 **LINE Messaging API** 實作的範例應用程式，透過安裝步驟，你可以使用 LINE 手機應用程式與你專屬的 AI 助理聊天。
 
@@ -79,7 +79,7 @@ GPT AI Assistant 是基於 **OpenAI API** 與 **LINE Messaging API** 實作的�
 
 {{< img src="/images/20230223003.png" width="50%" height="50%" >}}
 
-<h3 id="D"> Step1.申請帳號 </h3>
+### Step1.申請帳號 
 
 要能在10分鐘內快速安裝，首先要先準備以下帳號
 
@@ -89,24 +89,24 @@ GPT AI Assistant 是基於 **OpenAI API** 與 **LINE Messaging API** 實作的�
 * [Vercel 平台帳號](https://vercel.com/signup)
 
 
-<h3 id="E"> Step2.首先申請 OpenAI 帳號才能與LINE 官方帳號串接</h3>
+### Step2.首先申請 OpenAI 帳號才能與LINE 官方帳號串接
 
 申請好 OpenAI 帳號後，在 API Keys 建立一個 Secret key (要 copy 下來備用)
 
-<h3 id="F"> Step3.登入 LINE 官方帳號 </h3>
+### Step3.登入 LINE 官方帳號 
 
 * 新增一個提供者（Provider），例如「My Provider」。
 * 在「My Provider」新增一個類型為「Messaging API」的頻道（Channel），例如「My AI Assistant」。
 * 進到「My AI Assistant」頻道頁面，點選「Messaging API」頁籤，生成一個頻道的 channel access token。
 ![]( /images/20230223004.png)
 
-<h3 id="G"> Step4.登入 GitHub 平台 </h3>
+### Step4.登入 GitHub 平台 
 
 * 進到 gpt-ai-assistant 專案頁面。
 * 點選「Star」按鈕，支持這個專案與開發者。
 * 點選「Fork」按鈕，將原始碼複製到自己的儲存庫。
 
-<h3 id="H"> Step5.登入 Vercel 平台</h3>
+### Step5.登入 Vercel 平台
 
 * 點選「Create a New Project」按鈕，建立一個新專案。
 * 點選「Import」按鈕，將 gpt-ai-assistant 專案匯入。
@@ -121,7 +121,7 @@ GPT AI Assistant 是基於 **OpenAI API** 與 **LINE Messaging API** 實作的�
 * 點選「Deploy」按鈕，等待部署完成。
 * 回到專案首頁，複製應用程式網址（Domains），例如「https://gpt-ai-assistant.vercel.app/」。
 
-<h3 id="I"> Step6.回到 LINE 平台</h3>
+### Step6.回到 LINE 平台
 
 * 進到「My AI Assistant」頻道頁面，點選「Messaging API」頁籤，設置「Webhook URL」，填入應用程式網址並加上「/webhook」路徑，例如「https://gpt-ai-assistant.vercel.app/webhook」，點選「Update」按鈕。
 * 點選「Verify」按鈕，驗證是否呼叫成功。
