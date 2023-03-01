@@ -238,8 +238,6 @@ disqusShortname = "littlebookboy"
         enableHotKey = true
         pagerDirection = "first"
 ```
-完成設定後，
-
 線上執行結果 (丟到公開頁面後，評論系統介面才會被渲染成功)：
 
 ![]( /images/20230301017.png)
@@ -248,5 +246,8 @@ disqusShortname = "littlebookboy"
 在本文中，我介紹了如何在hugo上使用disqus或gitalk創建一個互動式留言板。這兩種評論系統各有優缺點，適合不同的需求和偏好。無論你選擇哪一種，都可以讓你的博客更加生動和有趣，增加與讀者之間的交流和互動。希望這篇文章對你有所幫助，歡迎留言分享你的看法和經驗。
 
 ## 參考連結
-[ChatGPT](https://openai.com/blog/chatgpt/)
-[原文連結](https://ithelp.ithome.com.tw/articles/10248312)
+[ChatGPT](https://openai.com/blog/chatgpt/)  
+
+[Disqus原文連結](https://ithelp.ithome.com.tw/articles/10248312)
+
+[Gitalk原文連結](https://xbc.me/add-gittalk-to-hugo/)

@@ -407,7 +407,7 @@ https://your-username.github.io
 
 [Hugo SEO 搜尋引擎最佳化](https://vincent3054.github.io/10minute/hugo-website-seo-guide/)
 
-Hugo Comments System (留言板) 會在寫一個文章說明
+[Hugo Comments 互動式留言板](https://vincent3054.github.io/10minute/hugo-comment-board-disqus-gitalkw/)  
 
 ## 來源連結
 [原文](https://ithelp.ithome.com.tw/users/20106430/ironman/3613)
