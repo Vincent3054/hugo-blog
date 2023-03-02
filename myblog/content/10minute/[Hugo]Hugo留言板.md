@@ -245,6 +245,10 @@ disqusShortname = "littlebookboy"
 ## 結論
 在本文中，我介紹了如何在hugo上使用disqus或gitalk創建一個互動式留言板。這兩種評論系統各有優缺點，適合不同的需求和偏好。無論你選擇哪一種，都可以讓你的博客更加生動和有趣，增加與讀者之間的交流和互動。希望這篇文章對你有所幫助，歡迎留言分享你的看法和經驗。
 
+## 補充
+
+[運用Hugo架設部落格](https://vincent3054.github.io/10minute/hugo-github-page-blog/)
+
 ## 參考連結
 [ChatGPT](https://openai.com/blog/chatgpt/)  
 

@@ -195,6 +195,9 @@ Disallow:
 * [Google Console](https://search.google.com/search-console) 可以看網站的曝光、點擊次數，並且了解哪個關鍵字最容易找到網站。
 * [Google Analytics](https://analytics.google.com/analytics) 可以用來監測網頁的流量、哪些網頁獲得比較多的觀看次數等等。[設定教學](https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/)
 * [Lighthouse audits](https://developers.google.com/web/tools/lighthouse/#devtools) 可以用來檢視網站的效能。
+## 補充
+
+[運用Hugo架設部落格](https://vincent3054.github.io/10minute/hugo-github-page-blog/)
 
 ## 參考連結
 https://ithelp.ithome.com.tw/articles/10252309
