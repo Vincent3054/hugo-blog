@@ -10,6 +10,10 @@ keywords :
 - ChatBot
 - 10minute
 - OpenAI
+- 聊天機器人
+- 智能機器人
+- AI機器人
+- AI對話機器人
 description : "[十分鐘系列]串接OpenAI到LineBot，建立屬於自己的AI助理"
 author : "Sky Chen"
 slug: openai-linebot-ai-assistant
@@ -43,11 +47,11 @@ https://openai.com/
 
 ChatGPT 是由 OpenAI 開發的自然語言處理（NLP)模型「GPT-3」延伸出的「GPT-3.5」製作的，基於 人類反饋強化學習(RLHF) 進行訓練，簡單來說就是**人類提問機器答、機器提問人類答，並且不斷迭代，再排除掉不健康的答案，透過人類干預以增強機器學習的效果**，獲得更為逼真的結果。
 
-![]( /images/20230217001.png)
+![]( /images/content/20230217001.png)
 
 ChatGPT 二個月內，已經吸引超過1億人使用，而 ChatGPT 功能強大，從客服對話、故事創作、翻譯、修改文法、寫詩、歌詞、文字整理，甚至是寫程式都可以。
 
-![]( /images/20230223001.png)
+![]( /images/content/20230223001.png)
 
 #### GPT-3 VS GPT-3.5
 
@@ -75,9 +79,9 @@ GPT AI Assistant 是基於 **OpenAI API** 與 **LINE Messaging API** 實作的�
 
 #### 範例
 
-{{< img src="/images/20230223002.png" width="50%" height="50%">}}
+{{< img src="/images/content/20230223002.png" width="50%" height="50%">}}
 
-{{< img src="/images/20230223003.png" width="50%" height="50%" >}}
+{{< img src="/images/content/20230223003.png" width="50%" height="50%" >}}
 
 ### Step1.申請帳號 
 
@@ -98,7 +102,7 @@ GPT AI Assistant 是基於 **OpenAI API** 與 **LINE Messaging API** 實作的�
 * 新增一個提供者（Provider），例如「My Provider」。
 * 在「My Provider」新增一個類型為「Messaging API」的頻道（Channel），例如「My AI Assistant」。
 * 進到「My AI Assistant」頻道頁面，點選「Messaging API」頁籤，生成一個頻道的 channel access token。
-![]( /images/20230223004.png)
+![]( /images/content/20230223004.png)
 
 ### Step4.登入 GitHub 平台 
 
@@ -112,11 +116,11 @@ GPT AI Assistant 是基於 **OpenAI API** 與 **LINE Messaging API** 實作的�
 * 點選「Import」按鈕，將 gpt-ai-assistant 專案匯入。
 * 點選「Environment Variables」頁籤，新增以下環境變數：
     * OPENAI_API_KEY：將值設置為 OpenAI 的 API key。
-    ![]( /images/20230223005.png)
+    ![]( /images/content/20230223005.png)
     * LINE_CHANNEL_ACCESS_TOKEN：將值設置為 LINE 的 channel access token。
-    ![]( /images/20230223004.png)
+    ![]( /images/content/20230223004.png)
     * LINE_CHANNEL_SECRET：將值設置為 LINE 的 channel secret。
-    ![]( /images/20230223006.png)
+    ![]( /images/content/20230223006.png)
 
 * 點選「Deploy」按鈕，等待部署完成。
 * 回到專案首頁，複製應用程式網址（Domains），例如「https://gpt-ai-assistant.vercel.app/」。

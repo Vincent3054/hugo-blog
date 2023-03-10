@@ -5,6 +5,10 @@ keywords :
 - SEO
 - search engine optimization
 - optimization
+- 部落格
+- 部落格SEO
+- SEO優化
+- 增加觀看數
 description : "Hugo網站的SEO優化指南"
 author : "Sky Chen"
 slug: hugo-website-seo-guide
@@ -126,19 +130,19 @@ Hugo 內建產生網站 Sitemap 的服務，你可以透過修改 config.toml，
 ##### Step.1 驗證
 1. 點選「網址前置字元」須入完整網址
 
-![]( /images/20230225001.png)
+![]( /images/content/20230225001.png)
 
 2. 確認無誤後，點擊「繼續」。
 
-![]( /images/20230225002.png)
+![]( /images/content/20230225002.png)
 
 3. 在「其他驗證方法」點擊「HTML標記」展開視窗。
 
-![]( /images/20230225003.png)
+![]( /images/content/20230225003.png)
 
 4. 將HTML標記做複製，可點擊右方複製按鈕，即會複製一整串。
 
-![]( /images/20230225004.png)
+![]( /images/content/20230225004.png)
 
 5. 將html檔案放置於Release檔案位置最外層
 
@@ -148,28 +152,28 @@ Hugo 內建產生網站 Sitemap 的服務，你可以透過修改 config.toml，
 
 6. 回至Google Search Console頁面，點擊「驗證」。
 
-![]( /images/20230225005.png)
+![]( /images/content/20230225005.png)
 
 7. 此時會出現「以驗證擁有權」視窗，可點擊「前往資源」，導向至該頁面。
 
-![]( /images/20230225006.png)
+![]( /images/content/20230225006.png)
 
 8. 驗證完成，進入Google Search Console總覽頁面。
 
-![]( /images/20230225007.png)
+![]( /images/content/20230225007.png)
 
 ##### Step.2 Sitemap提交
 1. 登入Google Search Console→點擊「站點地圖」（或是有的會顯示「Sitemap」）。
 
-![]( /images/20230225008.png)
+![]( /images/content/20230225008.png)
 
 2. 輸入您的整串網域名稱並加入「/sitemap.xml」，例如：[https://shopstore.tw/sitemap.xml](https://shopstore.tw/sitemap.xml)，並點選「提交」。
 
-![]( /images/20230225009.png)
+![]( /images/content/20230225009.png)
 
 3. 成功提交
 
-![]( /images/20230225010.png)
+![]( /images/content/20230225010.png)
 
 #### 2. 提供 robots.txt
 

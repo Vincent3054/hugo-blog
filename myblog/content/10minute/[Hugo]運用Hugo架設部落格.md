@@ -8,6 +8,10 @@ keywords :
 - github page
 - side project
 - blog
+- 自架部落格
+- 建立部落格
+- 無廣告部落格
+- 部落格
 description : "[十分鐘系列]運用Hugo在GitHub Page架設部落格"
 author : "Sky Chen"
 slug: hugo-github-page-blog
@@ -31,7 +35,7 @@ tags: `10minute` `Hugo`
 ## Hugo
 ### Hugo是什麼?
 
-![]( /images/20230224001.png)
+![]( /images/content/20230224001.png)
 
 Hugo是一個由Go語言實現的靜態網站生成器，它可以讓你在短時間內從無到有架設一個網站。
 
@@ -77,11 +81,11 @@ hugo new site myblog
 ```
 結果如下：
 
-![]( /images/20230224003.png)
+![]( /images/content/20230224003.png)
 
 cd 進入到目錄中我們可以看到最初的專案資料夾有以下這幾個：
 
-![]( /images/20230224004.png)
+![]( /images/content/20230224004.png)
 
 #### 補充連結
 [Hugo官方文件介紹](https://gohugo.io/getting-started/quick-start/)
@@ -121,7 +125,7 @@ hugo server -D
 ```
 訪問 http://localhost:1313/  網站就可以成功在本地跑起來了!
 
-![]( /images/20230224005.png)
+![]( /images/content/20230224005.png)
 
 #### 補充
 [Git 安裝教學](https://w3c.hexschool.com/git/3f9497cd)
@@ -325,7 +329,7 @@ GitHub 是一個提供我們把本地 (簡言之就是自己的電腦) 檔案、
 
 到官網註冊 https://github.com/
 
-![]( /images/20230224006.jpg)
+![]( /images/content/20230224006.jpg)
 
 順帶一提，若之後沒有想要特別買網址，這邊的 username 會是網站網址的一部分 (GitHub Pages 默認)，但若是不 care 網址長怎樣，建議使用自己習慣的「常用帳號」作為 username。
 
@@ -333,15 +337,15 @@ GitHub 是一個提供我們把本地 (簡言之就是自己的電腦) 檔案、
 
 * 註冊完成之後，轉跳到這個畫面，請點右上角的 ＋：
 
-![]( /images/20230224007.jpg)
+![]( /images/content/20230224007.jpg)
 
 * 按下 New repository，建立一個新的資源庫
 
-![]( /images/20230224008.jpg)
+![]( /images/content/20230224008.jpg)
 
 * 請注意，Repository name 一定要填入 your-username.github.io，以筆者自己為例，我的 username 是 littlebookboy，則建立資源庫名稱就要使用 littlebookboy.github.io，這是 GitHub Pages 的機制；填寫完必要資訊，按下建立：
 
-![]( /images/20230224009.jpg)
+![]( /images/content/20230224009.jpg)
 
 #### 部署到 GitHub Pages
 
@@ -349,25 +353,25 @@ GitHub 是一個提供我們把本地 (簡言之就是自己的電腦) 檔案、
 
 * cd 到 Hugo 專案底下，執行 hugo 指令，打包你的 Hugo Site：
 
-![]( /images/20230224010.jpg)
+![]( /images/content/20230224010.jpg)
 
 若是要連同草稿、未來發布等文章一併打包，請下配合的參數，例如 hugo -D。
 
 * 複製剛剛建立好的 Repository URL，位置在：
 
-![]( /images/20230224011.jpg)
+![]( /images/content/20230224011.jpg)
 
 * 執行 git remote 註冊，註冊好遠端地址後，可下 git remote -v 列出看看：
 
-![]( /images/20230224012.jpg)
+![]( /images/content/20230224012.jpg)
 
 * 將目前異動提交成一個 commit：
 
-![]( /images/20230224013.jpg)
+![]( /images/content/20230224013.jpg)
 
 * 提交完成後，下 git push：
 
-![]( /images/20230224014.jpg)
+![]( /images/content/20230224014.jpg)
 
 #### 整個指令執行過程
 
@@ -401,7 +405,7 @@ $ git push or $ git push -u origin main
 此時你可以開啟 https://your-username.github.io 瀏覽看看網站是否已經部署成功，理論上不會等太久，就可以看到頁面了。
 https://your-username.github.io
 
-![]( /images/20230224002.png)
+![]( /images/content/20230224002.png)
 
 ## 補充
 

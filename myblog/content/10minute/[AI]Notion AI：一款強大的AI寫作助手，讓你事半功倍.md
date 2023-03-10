@@ -8,6 +8,11 @@ keywords :
 - automatically
 - generated
 - automatically generated
+- 筆記軟體
+- AI筆記
+- 自動產生文章
+- 自動作筆記
+- 寫作好幫手
 description : "[十分鐘系列]Notion AI：一款強大的AI寫作助手，讓你事半功倍"
 author : "Sky Chen"
 slug: notion-ai-writing-assistant
@@ -25,7 +30,7 @@ thumbnailImage: images/notes0005.jpg
 # [AI]Notion AI：一款強大的AI寫作助手，讓你事半功倍
 tags: `10minute` `AI` 
 
-![]( /images/20230303001.png)
+![]( /images/content/20230303001.png)
 
 {{< toc >}}
 
@@ -37,7 +42,7 @@ tags: `10minute` `AI`
 
 Notion AI是一款集成在Notion筆記軟體中的AI寫作助手，它可以幫助你在Notion中快速產生、編輯、總結文字內容。它是使用生成式人工智慧（generative AI），根據你提供的材料或指示來發想延伸。
 
-![]( /images/20230303002.png)
+![]( /images/content/20230303002.png)
 
 ### Notion AI有哪些功能和優勢？
 
@@ -53,14 +58,14 @@ Notion AI有多種功能和優勢，例如：
 
 使用Notion AI很簡單，只要**在Notion中按一下空格鍵，就可以叫出Notion AI的輸入框**。在這裡，你可以輸入任何想要說的內容或想要請Notion AI執行的動作。
 
-![]( /images/20230306001.png)
+![]( /images/content/20230306001.png)
 
 例如：
 
 - 如果你想要生成一篇關於「智能手錶」的文章，你可以輸入「寫一篇關於智能手錶的文章」。
 - 如果你想要改進一段文字的文法或風格，你可以**選取那段文字並點選「Ask AI」**。然後在對話框中輸入「改進這段文字」或「讓這段文字更正式/隨意/有趣」等指示。
 
-![]( /images/20230306002.png)
+![]( /images/content/20230306002.png)
 
 - 如果你想要獲得一些靈感或建議，你可以在對話框中輸入「給我一些關於…… 的靈感/建議/問題」等詢問。
 
