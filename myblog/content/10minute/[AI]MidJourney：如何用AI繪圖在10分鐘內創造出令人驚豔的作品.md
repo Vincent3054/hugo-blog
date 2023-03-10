@@ -24,8 +24,11 @@ thumbnailImage: images/content/notes0006.jpg
 <!--more-->
 
 # [AI]MidJourney：如何用AI繪圖在10分鐘內創造出令人驚豔的作品
+tags: `10minute` `AI` 
 
 ![]( /images/content/20230310006.png)
+
+{{< toc >}}
 
 # MidJourney：集 AI、繪畫、創作於一身的新世代繪圖工具
 
