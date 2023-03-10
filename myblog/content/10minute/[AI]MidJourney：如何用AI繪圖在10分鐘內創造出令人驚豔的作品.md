@@ -15,7 +15,7 @@ slug: midJourney-ai-artist
 categories:
 - 10minute
 - AI
-date: "2023-03-03"
+date: "2023-03-10"
 tags : ["AI","10minute"]
 coverSize: partial
 coverImage: images/content/notes0006.jpg
