@@ -92,7 +92,7 @@ Midjourney 建立於 [Discord](https://discord.com/) 頻道上，於生成頻
 2. 輸入關鍵字
 3. 貼到 MidJourney
 
-### ****步驟 1. 定義角色****
+### 步驟 1. 定義角色
 
 我們的目標是讓 ChatGPT 擔任 MidJourney Prompt Generator (Prompt 產生器)。在 ChatGPT 的對話框輸入下方的文字
 
@@ -106,7 +106,7 @@ Rule: make the prompt less than 100 words
 
 ChatGPT 會回應我們一段產圖指令，這代表我們成功把 ChatGPT 變成 MidJourney 產圖專家了。
 
-### ****步驟 2. 輸入關鍵字****
+### 步驟 2. 輸入關鍵字
 
 此時 ChatGPT 已經變成 MidJourney 產生器。
 
@@ -120,7 +120,7 @@ ChatGPT 會回應我們一段產圖指令，這代表我們成功把 ChatGPT 變
 
 ![]( /images/content/20230310007.png)
 
-### ****步驟 3. 貼到 MidJourney****
+### 步驟 3. 貼到 MidJourney
 
 有了清楚的 Prompt 產圖已經成功一半。
 
@@ -132,7 +132,7 @@ ChatGPT 會回應我們一段產圖指令，這代表我們成功把 ChatGPT 變
 
 ![]( /images/content/20230310008.png)
 
-## **開心地用 MidJourney 繪製你的文章/文案圖片吧！**
+## 開心地用 MidJourney 繪製你的文章/文案圖片吧！
 
 只要 3 個步驟：
 
