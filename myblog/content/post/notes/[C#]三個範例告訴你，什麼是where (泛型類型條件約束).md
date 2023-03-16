@@ -11,21 +11,22 @@ keywords :
 - constraint
 description : "三個範例告訴你，什麼是where (泛型類型條件約束)"
 author : "Sky Chen"
-slug: hugo-website-seo-guide
-tags : ["10minute","Hugo"]
+slug: csharp-generic-type-constraint
+tags : ["C#","notes"]
 categories:
-- C#
 - notes
+- C#
+
 date: "2023-03-16"
 
 toc : true
 coverSize: partial
-coverImage: images/notes0007.jpg
-thumbnailImage: images/notes0007.jpg
+coverImage: images/content/notes0007.jpg
+thumbnailImage: images/content/notes0007.jpg
 ---
 <!--more-->
 
-# [C#]三個範例告訴你，什麼是where (泛型類型條件約束)
+# 三個範例告訴你，什麼是where (泛型類型條件約束)
 tags: `C#` `notes`
 
 {{< toc >}}

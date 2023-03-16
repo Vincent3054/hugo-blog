@@ -22,8 +22,8 @@ categories:
 date: "2023-03-03"
 tags : ["AI","10minute"]
 coverSize: partial
-coverImage: images/notes0005.jpg
-thumbnailImage: images/notes0005.jpg
+coverImage: images/content/notes0005.jpg
+thumbnailImage: images/content/notes0005.jpg
 ---
 <!--more-->
 

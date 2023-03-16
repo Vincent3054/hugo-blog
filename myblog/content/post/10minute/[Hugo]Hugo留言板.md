@@ -19,8 +19,8 @@ categories:
 date: "2023-03-01"
 toc : true
 coverSize: partial
-coverImage: images/notes0004.jpg
-thumbnailImage: images/notes0004.jpg
+coverImage: images/content/notes0004.jpg
+thumbnailImage: images/content/notes0004.jpg
 ---
 <!--more-->
 

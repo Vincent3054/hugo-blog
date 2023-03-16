@@ -14,14 +14,15 @@ author : "Sky Chen"
 slug: hugo-website-seo-guide
 tags : ["10minute","Hugo"]
 categories:
-- SEO
 - Hugo
+- SEO
+
 date: "2023-02-24"
 
 toc : true
 coverSize: partial
-coverImage: images/notes0003.jpg
-thumbnailImage: images/notes0003.jpg
+coverImage: images/content/notes0003.jpg
+thumbnailImage: images/content/notes0003.jpg
 ---
 <!--more-->
 

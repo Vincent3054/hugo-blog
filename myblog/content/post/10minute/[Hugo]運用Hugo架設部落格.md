@@ -22,8 +22,8 @@ date: "2023-02-15"
 tags : ["10minute","Hugo"]
 
 coverSize: partial
-coverImage: images/notes0001.jpg
-thumbnailImage: images/notes0001.jpg
+coverImage: images/content/notes0001.jpg
+thumbnailImage: images/content/notes0001.jpg
 ---
 <!--more-->
 
