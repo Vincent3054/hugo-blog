@@ -20,70 +20,71 @@ slug: ai-chatGPT
 categories:
 - 10minute
 - AI
-date: "2023-02-17"
+date: "2023-03-21"
 tags : ["AI","10minute"]
 coverSize: partial
-coverImage: images/content/notes0002.jpg
-thumbnailImage: images/content/notes0002.jpg
+coverImage: images/content/notes0008.jpg
+thumbnailImage: images/content/notes0008.jpg
 ---
 <!--more-->
 
 # [AI]ChatGPT：AI的IPhone時刻
 tags: `10minute` `AI` 
 
-{{< toc >}}
-
 ![]( /images/content/20230317001.png)
 
-# **什麼是ChatGPT？**
+{{< toc >}}
+
+## 什麼是ChatGPT？
 
 ChatGPT是一款優秀的人工智能聊天軟體，就像一個知識型哆啦A夢一般。您可以向它提問，它將為您提供解答。您可能會好奇，iPhone的Siri或Android的Google Assistant早就在做類似的事情，那麼ChatGPT與它們有何區別？
 
-## **與Siri和Google Assistant的區別**
+### 與Siri和Google Assistant的區別
 
 其中一個顯著的區別在於，當您向Siri提問時，它通常會搜尋網絡並為您提供一個網頁。然而，**ChatGPT會直接將搜集到的信息以專業人士的方式回答您的問題**。此外，它能夠回答Siri或Google Assistant無法回答的問題。例如，當您閱讀一篇冗長的文章時，如果覺得內容晦澀難懂，您可以將文章內容提供給ChatGPT，它將為您總結重點、摘要、註明來源與回答重點問題等。
 
-- [【比較】ChatGPT 與 Siri、Alexa、Google Assistant ，聊天機械人的優點和缺點](https://www.techritual.com/2023/02/25/352636/)
-- [測試 ChatPDF 用 AI 整理 PDF 論文摘要、註明來源與回答重點問題 (playpcesor.com)](https://www.playpcesor.com/2023/03/chatpdf-ai-pdf.html)
+> - [【比較】ChatGPT 與 Siri、Alexa、Google Assistant ，聊天機械人的優點和缺點](https://www.techritual.com/2023/02/25/352636/)
+> - [測試 ChatPDF 用 AI 整理 PDF 論文摘要、註明來源與回答重點問題 (playpcesor.com)](https://www.playpcesor.com/2023/03/chatpdf-ai-pdf.html)
 
-## **優異的回答品質**
+### 優異的回答品質
 
 ChatGPT的回答品質非常優異，這是因為它能夠自動學習和理解自然語言，並**考慮問題的上下文，提供多種不同的回答方式**。但也因此，許多人認為ChatGPT 的回答比自己上網找資料後來回答還要好，所以才會那麼多人說很多工作可能要被取代了。
 
-- [ChatGPT 會取代多少工作？這 20 種職業特別小心](https://www.managertoday.com.tw/columns/view/66428?)
+> - [ChatGPT 會取代多少工作？這 20 種職業特別小心](https://www.managertoday.com.tw/columns/view/66428?)
 
-## **舉例說明**
+### 舉例說明
 
 舉個例子來說，以台大一門熱門的簡報課為例，其中一項作業要求大學生將自己主修的某個概念講解得小學生也能聽懂。假設您將這個課題交給ChatGPT，它將如何回答呢？從實際測試結果來看，令人驚訝的是，ChatGPT確實針對小朋友這個群體舉例，將原本艱澀的經濟學概念變得易於理解！
 
 ![]( /images/content/20230317002.png)
 
-## **如何使用 ChatGPT？**
+## 如何使用 ChatGPT？
 
-ChatGPT 提供了網頁版，讓使用者隨時隨地都可以輕鬆使用。以下是開始使用 ChatGPT 的步驟：
+ChatGPT 提供了網頁版，讓使用者隨時隨地都可以輕鬆使用。
+以下是開始使用 ChatGPT 的步驟：
 
-1. 前往 ChatGPT 的官方網站：**[https://chat.openai.com/](https://chat.openai.com/)**。
+1. 前往 ChatGPT 的官方網站：[https://chat.openai.com/](https://chat.openai.com/)。
 
 ![]( /images/content/20230317003.png)
 
 
-1. 如果您是初次使用，請點擊 "Sign up" 進行註冊。您可以選擇使用 Google 或 Microsoft 帳戶進行快速註冊。如果您已有 Gmail 帳戶，可以直接使用該帳戶進行註冊，省去繁瑣的註冊流程。
+2. 如果您是初次使用，請點擊 "Sign up" 進行註冊。您可以選擇使用 Google 或 Microsoft 帳戶進行快速註冊。如果您已有 Gmail 帳戶，可以直接使用該帳戶進行註冊，省去繁瑣的註冊流程。
 
 ![]( /images/content/20230317004.png)
 
 
-1. 至於怎麼用？你只需要在對話框輸入你想問的問題，ChatGPT 就會回答你了！
+3. 至於怎麼用？你只需要在對話框輸入你想問的問題，ChatGPT 就會回答你了！
 
 ![]( /images/content/20230317005.png)
 
 
 若要獲得準確的答覆，您的問題或指令需要足夠清晰明確。如果您需要更多指令的使用方法，可以參考「 [ChatGPT 指令大全](https://www.explainthis.io/zh-hant/chatgpt)」。
 
-- [第三方桌面應用程式](https://github.com/lencx/ChatGPT)
-- [第三方手機app](https://www.sogi.com.tw/articles/how_to/6259406)
-- [ChatGPT指令詠唱書](https://github.com/f/awesome-chatgpt-prompts)
+> - [第三方桌面應用程式](https://github.com/lencx/ChatGPT)
+> - [第三方手機app](https://www.sogi.com.tw/articles/how_to/6259406)
+> - [ChatGPT指令詠唱書](https://github.com/f/awesome-chatgpt-prompts)
 
-## ****用 ChatGPT 要付錢嗎？****
+## 用 ChatGPT 要付錢嗎？
 
 ChatGPT 目前提供了免費版和付費版的服務，它們之間的主要差異如下：
 
@@ -98,7 +99,7 @@ ChatGPT 目前提供了免費版和付費版的服務，它們之間的主要差
 ![]( /images/content/20230317006.png)
 
 
-- **[ChatGPT Plus 經驗分享：是否值得花錢升級？](https://www.explainthis.io/zh-hant/chatgpt/upgrade-plus)**
+> - [ChatGPT Plus 經驗分享：是否值得花錢升級？](https://www.explainthis.io/zh-hant/chatgpt/upgrade-plus)
 
 ## ChatGPT的演變歷程：1到4代有什麼差別？
 
@@ -121,6 +122,8 @@ ChatGPT 目前提供了免費版和付費版的服務，它們之間的主要差
 ### 4. GPT-4：
 
 距上次GPT-3.5的更新不久，2023年3月14日，OpenAI又拋出GPT-4，此次除了正確度高出40%、以整理和搜尋網路上的資訊為主，還可以支援視覺輸入、圖像辨識，懂得「**看圖說故事**」了！不過GPT-4沒有再砸下重金、狂堆訓練參數，而是把研發的重點將放在提升利用現有數據的能力上。
+> - [GPT-4 詳細介紹](https://www.ithome.com.tw/news/155980)
+
 
 ## ****ChatGPT 的實際應用****
 
