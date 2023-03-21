@@ -46,7 +46,7 @@ tags: `10minute` `AI`
 
 最後，OpenAI表示，他們期待GPT-4能成為改善生活的重要工具。他們也會持續不斷改善這個模型，以滿足使用者的需求。不要錯過體驗GPT-4的機會，讓這個強大的工具為你帶來無盡的可能性！
 
-- OpenAI官網GPT4發表網址：[https://openai.com/research/gpt-4](https://openai.com/research/gpt-4)
+>  OpenAI官網GPT4發表網址：[https://openai.com/research/gpt-4](https://openai.com/research/gpt-4)
 
 ## GPT-4 的六大功能
 
