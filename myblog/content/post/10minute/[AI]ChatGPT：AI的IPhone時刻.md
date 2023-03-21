@@ -33,7 +33,7 @@ tags: `10minute` `AI`
 
 {{< toc >}}
 
-![20230317001.jpg](ChatGPT%EF%BC%9AAI%E7%9A%84IPhone%E6%99%82%E5%88%BB%20e8013a0091aa4357b3aaeed9d5a2df51/20230317001.jpg)
+![]( /images/content/20230317001.png)
 
 # **什麼是ChatGPT？**
 
@@ -56,7 +56,7 @@ ChatGPT的回答品質非常優異，這是因為它能夠自動學習和理解�
 
 舉個例子來說，以台大一門熱門的簡報課為例，其中一項作業要求大學生將自己主修的某個概念講解得小學生也能聽懂。假設您將這個課題交給ChatGPT，它將如何回答呢？從實際測試結果來看，令人驚訝的是，ChatGPT確實針對小朋友這個群體舉例，將原本艱澀的經濟學概念變得易於理解！
 
-![Untitled](ChatGPT%EF%BC%9AAI%E7%9A%84IPhone%E6%99%82%E5%88%BB%20e8013a0091aa4357b3aaeed9d5a2df51/Untitled.png)
+![]( /images/content/20230317002.png)
 
 ## **如何使用 ChatGPT？**
 
@@ -64,15 +64,18 @@ ChatGPT 提供了網頁版，讓使用者隨時隨地都可以輕鬆使用。以
 
 1. 前往 ChatGPT 的官方網站：**[https://chat.openai.com/](https://chat.openai.com/)**。
 
-![https://explainthis.s3-ap-northeast-1.amazonaws.com/0a34b5857ca94acd86f241203ba15640.png](https://explainthis.s3-ap-northeast-1.amazonaws.com/0a34b5857ca94acd86f241203ba15640.png)
+![]( /images/content/20230317003.png)
+
 
 1. 如果您是初次使用，請點擊 "Sign up" 進行註冊。您可以選擇使用 Google 或 Microsoft 帳戶進行快速註冊。如果您已有 Gmail 帳戶，可以直接使用該帳戶進行註冊，省去繁瑣的註冊流程。
 
-![https://explainthis.s3-ap-northeast-1.amazonaws.com/8967df668d104a9983d644536f115367.png](https://explainthis.s3-ap-northeast-1.amazonaws.com/8967df668d104a9983d644536f115367.png)
+![]( /images/content/20230317004.png)
+
 
 1. 至於怎麼用？你只需要在對話框輸入你想問的問題，ChatGPT 就會回答你了！
 
-![Untitled](ChatGPT%EF%BC%9AAI%E7%9A%84IPhone%E6%99%82%E5%88%BB%20e8013a0091aa4357b3aaeed9d5a2df51/Untitled%201.png)
+![]( /images/content/20230317005.png)
+
 
 若要獲得準確的答覆，您的問題或指令需要足夠清晰明確。如果您需要更多指令的使用方法，可以參考「 [ChatGPT 指令大全](https://www.explainthis.io/zh-hant/chatgpt)」。
 
@@ -92,7 +95,8 @@ ChatGPT 目前提供了免費版和付費版的服務，它們之間的主要差
 
 總體來說，付費版的 ChatGPT 提供了更多的功能和靈活性，適合需要更高要求的使用者。而對於一般的用戶，免費版的 ChatGPT 已經提供了很好的服務。建議您在選擇使用哪種版本時，需要考慮您的需求和預算等因素。
 
-![Untitled](ChatGPT%EF%BC%9AAI%E7%9A%84IPhone%E6%99%82%E5%88%BB%20e8013a0091aa4357b3aaeed9d5a2df51/Untitled%202.png)
+![]( /images/content/20230317006.png)
+
 
 - **[ChatGPT Plus 經驗分享：是否值得花錢升級？](https://www.explainthis.io/zh-hant/chatgpt/upgrade-plus)**
 
