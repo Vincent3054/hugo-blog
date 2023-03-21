@@ -20,7 +20,7 @@ slug: ai-chatGPT
 categories:
 - 10minute
 - AI
-date: "2023-03-20"
+date: "2023-03-19"
 tags : ["AI","10minute"]
 coverSize: partial
 coverImage: images/content/notes0008.jpg
@@ -43,14 +43,14 @@ ChatGPT是一款優秀的人工智能聊天軟體，就像一個知識型哆啦A
 
 其中一個顯著的區別在於，當您向Siri提問時，它通常會搜尋網絡並為您提供一個網頁。然而，**ChatGPT會直接將搜集到的信息以專業人士的方式回答您的問題**。此外，它能夠回答Siri或Google Assistant無法回答的問題。例如，當您閱讀一篇冗長的文章時，如果覺得內容晦澀難懂，您可以將文章內容提供給ChatGPT，它將為您總結重點、摘要、註明來源與回答重點問題等。
 
-> - [【比較】ChatGPT 與 Siri、Alexa、Google Assistant ，聊天機械人的優點和缺點](https://www.techritual.com/2023/02/25/352636/)
-> - [測試 ChatPDF 用 AI 整理 PDF 論文摘要、註明來源與回答重點問題 (playpcesor.com)](https://www.playpcesor.com/2023/03/chatpdf-ai-pdf.html)
+> [【比較】ChatGPT 與 Siri、Alexa、Google Assistant ，聊天機械人的優點和缺點](https://www.techritual.com/2023/02/25/352636/)
+> [測試 ChatPDF 用 AI 整理 PDF 論文摘要、註明來源與回答重點問題 (playpcesor.com)](https://www.playpcesor.com/2023/03/chatpdf-ai-pdf.html)
 
 ### 優異的回答品質
 
 ChatGPT的回答品質非常優異，這是因為它能夠自動學習和理解自然語言，並**考慮問題的上下文，提供多種不同的回答方式**。但也因此，許多人認為ChatGPT 的回答比自己上網找資料後來回答還要好，所以才會那麼多人說很多工作可能要被取代了。
 
-> - [ChatGPT 會取代多少工作？這 20 種職業特別小心](https://www.managertoday.com.tw/columns/view/66428?)
+> [ChatGPT 會取代多少工作？這 20 種職業特別小心](https://www.managertoday.com.tw/columns/view/66428?)
 
 ### 舉例說明
 
@@ -80,9 +80,11 @@ ChatGPT 提供了網頁版，讓使用者隨時隨地都可以輕鬆使用。
 
 若要獲得準確的答覆，您的問題或指令需要足夠清晰明確。如果您需要更多指令的使用方法，可以參考「 [ChatGPT 指令大全](https://www.explainthis.io/zh-hant/chatgpt)」。
 
-> - [第三方桌面應用程式](https://github.com/lencx/ChatGPT)
-> - [第三方手機app](https://www.sogi.com.tw/articles/how_to/6259406)
-> - [ChatGPT指令詠唱書](https://github.com/f/awesome-chatgpt-prompts)
+> [第三方桌面應用程式](https://github.com/lencx/ChatGPT)
+
+> [第三方手機app](https://www.sogi.com.tw/articles/how_to/6259406)
+
+> [ChatGPT指令詠唱書](https://github.com/f/awesome-chatgpt-prompts)
 
 ## 用 ChatGPT 要付錢嗎？
 
@@ -91,15 +93,14 @@ ChatGPT 目前提供了免費版和付費版的服務，它們之間的主要差
 1. 文字數量限制：免費版的 ChatGPT 每次最多只能輸入 2048 個字元，而付費版的限制則較低或沒有限制。
 2. 回應速度：付費版的 ChatGPT 回應速度可能會更快，因為它會分配更多的資源和計算能力給付費用戶。
 3. API 調用次數：免費版的 ChatGPT 每天的 API 調用次數是有限制的，而付費版的則可以獲得更多的調用次數。
-4. 客製化能力：付費版的 ChatGPT 提供了更多的客製化能力，例如可以訓練自己的模型或者設定特定的應用場景等等。
-5. 優先使用新功能：付費版的 ChatGPT 用戶可以優先使用到新功能，例如GPT-4可以搶先使用。
+4. 優先使用新功能：付費版的 ChatGPT 用戶可以優先使用到新功能，例如GPT-4可以搶先使用。
 
 總體來說，付費版的 ChatGPT 提供了更多的功能和靈活性，適合需要更高要求的使用者。而對於一般的用戶，免費版的 ChatGPT 已經提供了很好的服務。建議您在選擇使用哪種版本時，需要考慮您的需求和預算等因素。
 
 ![]( /images/content/20230317006.png)
 
 
-> - [ChatGPT Plus 經驗分享：是否值得花錢升級？](https://www.explainthis.io/zh-hant/chatgpt/upgrade-plus)
+> [[AI]ChatGPT：付費版「ChatGPT Plus」，月繳20美元！服務差在哪？](https://vincent3054.github.io/post/10minute/ai-chatgpt-gptplus/)
 
 ## ChatGPT的演變歷程：1到4代有什麼差別？
 
@@ -123,7 +124,7 @@ ChatGPT 目前提供了免費版和付費版的服務，它們之間的主要差
 
 距上次GPT-3.5的更新不久，2023年3月14日，OpenAI又拋出GPT-4，此次除了正確度高出40%、以整理和搜尋網路上的資訊為主，還可以支援視覺輸入、圖像辨識，懂得「**看圖說故事**」了！不過GPT-4沒有再砸下重金、狂堆訓練參數，而是把研發的重點將放在提升利用現有數據的能力上。
 
-> - [[AI]ChatGPT：GPT-4登場！OpenAI這次新增哪些功能？](https://vincent3054.github.io/post/10minute/ai-chatgpt-gpt4/)
+> [[AI]ChatGPT：GPT-4登場！OpenAI這次新增哪些功能？](https://vincent3054.github.io/post/10minute/ai-chatgpt-gpt4/)
 
 
 ## ChatGPT 的實際應用
@@ -137,3 +138,6 @@ ChatGPT 目前提供了免費版和付費版的服務，它們之間的主要差
 
 ## 補充
 [[AI]ChatGPT：GPT-4登場！OpenAI這次新增哪些功能？](https://vincent3054.github.io/post/10minute/ai-chatgpt-gpt4/)
+
+[[AI]ChatGPT：付費版「ChatGPT Plus」，月繳20美元！服務差在哪？](https://vincent3054.github.io/post/10minute/ai-chatgpt-gptplus/)
+
