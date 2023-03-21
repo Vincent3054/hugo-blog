@@ -23,7 +23,7 @@ slug: ai-chatGPT-GPT4
 categories:
 - 10minute
 - AI
-date: "2023-03-21"
+date: "2023-03-20"
 tags : ["AI","10minute"]
 coverSize: partial
 coverImage: images/content/notes0009.jpg
@@ -47,6 +47,9 @@ tags: `10minute` `AI`
 最後，OpenAI表示，他們期待GPT-4能成為改善生活的重要工具。他們也會持續不斷改善這個模型，以滿足使用者的需求。不要錯過體驗GPT-4的機會，讓這個強大的工具為你帶來無盡的可能性！
 
 >  OpenAI官網GPT4發表網址：[https://openai.com/research/gpt-4](https://openai.com/research/gpt-4)
+
+>  [[AI]ChatGPT：付費版「ChatGPT Plus」，月繳20美元！服務差在哪？](https://vincent3054.github.io/post/10minute/ai-chatgpt-gptplus/)
+
 
 ## GPT-4 的六大功能
 
@@ -115,3 +118,8 @@ GPT-4的性能雖然提升了，但OpenAI坦承仍然存在一些無法克服的
 OpenAI強調，在開發時，他們已經為模型的安全性做出努力。他們邀請了多位專家協助測試模型在特定領域上的應用，例如網路安全、生物風險和國際安全等，以避免相關問答引發危險。此外，他們在訓練過程中明確設定了減少產出有害內容的改進方向，例如更能夠避免回答自殘、製造武器、危害身體健康等問題。
 
 不過，如果有心人士想盡辦法繞過這些限制，仍然有機會成功。現在，OpenAI正在通過不同的方法，希望減少使用者成功「越獄」和跨越模型規範的行為。
+
+## 補充
+[[AI]ChatGPT：AI的IPhone時刻](https://vincent3054.github.io/post/10minute/ai-chatgpt/)
+
+[[AI]ChatGPT：付費版「ChatGPT Plus」，月繳20美元！服務差在哪？](https://vincent3054.github.io/post/10minute/ai-chatgpt-gptplus/)
