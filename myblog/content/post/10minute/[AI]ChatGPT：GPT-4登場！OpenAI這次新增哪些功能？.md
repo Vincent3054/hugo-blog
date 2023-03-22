@@ -46,8 +46,7 @@ tags: `10minute` `AI`
 
 最後，OpenAI表示，他們期待GPT-4能成為改善生活的重要工具。他們也會持續不斷改善這個模型，以滿足使用者的需求。不要錯過體驗GPT-4的機會，讓這個強大的工具為你帶來無盡的可能性！
 
->  OpenAI官網GPT4發表網址：[https://openai.com/research/gpt-4](https://openai.com/research/gpt-4)
-
+>  [OpenAI官網 GPT4介紹頁](https://openai.com/research/gpt-4) </br>
 >  [[AI]ChatGPT：付費版「ChatGPT Plus」，月繳20美元！服務差在哪？](https://vincent3054.github.io/post/10minute/ai-chatgpt-gptplus/)
 
 
@@ -55,7 +54,7 @@ tags: `10minute` `AI`
 
 根據OpenAI發布的展示影片中，GPT-4主要更新了6大功能：
 
-[OpenAI發布的展示影片](https://youtu.be/outcGtbnMuQ)
+Youtube：[OpenAI發布的展示影片](https://youtu.be/outcGtbnMuQ)
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/outcGtbnMuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -43,8 +43,8 @@ ChatGPT是一款優秀的人工智能聊天軟體，就像一個知識型哆啦A
 
 其中一個顯著的區別在於，當您向Siri提問時，它通常會搜尋網絡並為您提供一個網頁。然而，**ChatGPT會直接將搜集到的信息以專業人士的方式回答您的問題**。此外，它能夠回答Siri或Google Assistant無法回答的問題。例如，當您閱讀一篇冗長的文章時，如果覺得內容晦澀難懂，您可以將文章內容提供給ChatGPT，它將為您總結重點、摘要、註明來源與回答重點問題等。
 
-> [【比較】ChatGPT 與 Siri、Alexa、Google Assistant ，聊天機械人的優點和缺點](https://www.techritual.com/2023/02/25/352636/)
-> [測試 ChatPDF 用 AI 整理 PDF 論文摘要、註明來源與回答重點問題 (playpcesor.com)](https://www.playpcesor.com/2023/03/chatpdf-ai-pdf.html)
+> [ChatGPT 與 Siri、Alexa、Google Assistant ，聊天機械人的優點和缺點](https://www.techritual.com/2023/02/25/352636/)　</Br>
+> [測試 ChatPDF 用 AI 整理 PDF 論文摘要、註明來源與回答重點問題](https://www.playpcesor.com/2023/03/chatpdf-ai-pdf.html)
 
 ### 優異的回答品質
 
