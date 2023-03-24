@@ -141,7 +141,7 @@ Bing 影像建立者連結：[https://www.bing.com/create](https://www.bing.com/
 
 在文字中「”**輸入您想產生圖片的描述**”」，取代成您想產生圖片的描述，如：
 
-> (省略…).Here is your first prompt: **"在地下城穿梭的忍者，Cyberpunk 風格"**，(省略…)
+> (省略).Here is your first prompt: **"在地下城穿梭的忍者，Cyberpunk 風格"**，(省略)
 
 ChatGPT 會回應我們一段產圖指令，這代表我們成功把 ChatGPT 變成產圖專家了。
 
