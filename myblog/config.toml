@@ -16,7 +16,7 @@
 baseURL = "https://Vincent3054.github.io/"
 languageCode = "zh-tw"
 defaultContentLanguage = "zh-tw"    # 預設語系
-title = "Blog"
+title = "AI筆記"
 theme = "tranquilpeak"
 disqusShortname = "https-vincent3054-github-io"
 googleAnalytics = "G-KMNNV397T8"
@@ -47,7 +47,7 @@ canonifyurls = true
 # ------
 [author]
   name = "Sky Chen"
-  bio = "I'm Sky Chen, a creative developer passionate about C#, DevOps and Agile."
+  bio = "這是一個基於AI技術誕生的網站，你所看到網站的一切都是藉由AI輔助產生，如果你也對AI有興趣，歡迎留言支持我!"
   job = "Software Engineer"
   location = "Taipei, Taiwan"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
