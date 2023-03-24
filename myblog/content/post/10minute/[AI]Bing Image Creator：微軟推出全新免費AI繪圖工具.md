@@ -149,7 +149,7 @@ ChatGPT 會回應我們一段產圖指令，這代表我們成功把 ChatGPT 變
 
 把 ChatGPT 產生的文字貼到 Image Creator 的輸入框，點選「建立」產生圖片。
 
-> A stealthy ninja navigates the dark alleys and subterranean passages of a cyberpunk metropolis, clad in high-tech armor and wielding futuristic weapons. Their face is obscured by a sleek mask, and their movements are graceful and precise. The ninja's mission is shrouded in mystery, but one thing is certain: they are a force to be reckoned with in this dangerous underworld.\*\*
+> A stealthy ninja navigates the dark alleys and subterranean passages of a cyberpunk metropolis, clad in high-tech armor and wielding futuristic weapons. Their face is obscured by a sleek mask, and their movements are graceful and precise. The ninja's mission is shrouded in mystery, but one thing is certain: they are a force to be reckoned with in this dangerous underworld.
 
 下面是最後成果。
 
