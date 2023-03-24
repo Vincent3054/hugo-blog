@@ -27,6 +27,8 @@ thumbnailImage: images/content/notes0011.jpg
 <!--more-->
 # [AI]Bing Image Creator：微軟推出全新免費AI繪圖工具
 
+{{< toc >}}
+
 ## Image Creator 是什麼
 
 微軟 Bing 一直以來都是一個引領科技潮流的領航者，而今天他們又再次驚艷了我們！他們針對台灣用戶開放了一個免費的 AI 繪圖工具，名為「Bing Image Creator （影像建立者）」，利用 OpenAI 的 DALL-E 技術來生成圖片。
