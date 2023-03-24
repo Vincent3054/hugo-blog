@@ -80,11 +80,8 @@ ChatGPT 提供了網頁版，讓使用者隨時隨地都可以輕鬆使用。
 
 若要獲得準確的答覆，您的問題或指令需要足夠清晰明確。如果您需要更多指令的使用方法，可以參考「 [ChatGPT 指令大全](https://www.explainthis.io/zh-hant/chatgpt)」。
 
-> [第三方桌面應用程式](https://github.com/lencx/ChatGPT)
-
-> [第三方手機app](https://www.sogi.com.tw/articles/how_to/6259406)
-
-> [ChatGPT指令詠唱書](https://github.com/f/awesome-chatgpt-prompts)
+> [推薦-桌面應用程式(第三方)](https://github.com/lencx/ChatGPT)</br>
+> [推薦-手機應用程式(第三方)](https://www.sogi.com.tw/articles/how_to/6259406)</br>
 
 ## 用 ChatGPT 要付錢嗎？
 
@@ -135,6 +132,7 @@ ChatGPT 目前提供了免費版和付費版的服務，它們之間的主要差
 - 情感分析：ChatGPT 可以識別出文本中的情感，例如情緒、態度、意圖等，可以應用於社交媒體監測、市場調研等領域。
 - 資訊檢索：ChatGPT 可以通過理解使用者的語言表達，幫助使用者查找所需的信息，例如答案、文件、媒體、圖像等，可以應用於搜索引擎、智能語音助手等。
 - 知識庫構建：ChatGPT 可以通過閱讀和理解大量的文本資料，幫助構建知識庫，包括百科全書、問答庫、智能推薦系統等，可以應用於各種知識型應用場景。
+> [ChatGPT指令詠唱書](https://github.com/f/awesome-chatgpt-prompts)
 
 ## 補充
 [[AI]ChatGPT：GPT-4登場！OpenAI這次新增哪些功能？](https://vincent3054.github.io/post/10minute/ai-chatgpt-gpt4/)
