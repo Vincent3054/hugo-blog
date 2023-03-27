@@ -107,7 +107,7 @@ Bing 影像建立者連結：[https://www.bing.com/create](https://www.bing.com/
 
 ![](/images/content/20230324009.png)
 
-用完所有次數後會顯示這個畫面，Bing 表示需要等候 5 分鐘。
+用完所有次數後會顯示這個畫面，Bing 表示需要等候30秒。
 
 ![](/images/content/20230324010.png)
 
