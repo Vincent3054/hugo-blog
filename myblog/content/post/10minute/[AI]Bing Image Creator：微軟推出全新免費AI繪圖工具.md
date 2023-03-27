@@ -37,9 +37,9 @@ thumbnailImage: images/content/notes0011.jpg
 
 如果你之前還沒有嘗試過像是 [Midjourney](https://www.managertoday.com.tw/articles/view/66586)、 [Stable diffusion](https://stablediffusionweb.com/) 等 AI 圖片生成服務的話，那麼「[Bing Image Creator （影像建立者）](https://www.bing.com/create)」絕對值得一試。它不僅可以幫助你輕鬆製作圖片，而且還可以省去你繁瑣的設置和操作。只需要用微軟帳號登入網頁，就可以免費使用，對一般用戶來說更好上手。
 
-## Image Creator VS Midjourney
+## Image Creator的優勢與劣勢
 
-以下是針對「Image Creator」 VS 「Midjourney」 的優劣勢：
+Midjourney 是當前最流行的 AI 繪圖軟體之一，因此與其比較，以下是 Image Creator 的優劣勢：
 
 - 優勢：
 
