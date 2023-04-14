@@ -26,28 +26,81 @@ thumbnailImage: images/content/notes0006.jpg
 # [AI]MidJourney：如何用AI繪圖在10分鐘內創造出令人驚豔的作品
 tags: `10minute` `AI` 
 
-![]( /images/content/20230310006.png)
+<!-- ![]( /images/content/20230310006.png) -->
 
 {{< toc >}}
 
-# MidJourney：集 AI、繪畫、創作於一身的新世代繪圖工具
+# 集 AI、繪畫、創作於一身的新世代繪圖工具
 
-近年來，隨著人工智慧技術的快速發展，AI 繪圖工具也逐漸受到關注和探索。MidJourney 就是這樣一個創新的 AI 繪圖工具，它集 AI 技術、繪畫功能和創作模式於一身，讓用戶能夠快速、輕鬆地創作出精美的繪畫作品。本文將介紹 MidJourney 的優勢和功能，教您如何在10分鐘內建立一個屬於自己的作品。
+近年來，隨著人工智慧技術的快速發展，AI 繪圖工具也逐漸受到關注和探索。MidJourney 就是這樣一個創新的 AI 繪圖工具，它集 AI 技術、繪畫功能和創作模式於一身，讓用戶能夠快速、輕鬆地創作出精美的繪畫作品。本文將介紹 MidJourney 的優勢和劣勢，教您如何在10分鐘內創造出一個令人驚豔的作品。
 
 ## 什麼是MidJourney?
+Midjourney是一款由獨立研究實驗室Leap Motion開發的「AI繪圖生成工具」，使用者不需要具備高超的繪畫技巧或電腦技術，**只需輸入幾個關鍵字，即可在短時間內生成精緻的圖像**。
 
-MidJourney 是一個新世代的 AI 繪圖工具，由 MidJourney 公司推出。MidJourney 的意思是「創作之旅」，它的目標是為用戶提供一個豐富、有趣的創作體驗。它採用了最先進的**深度學習和機器學習技術，但卻非常簡單易用**，即使是沒有繪畫經驗的用戶也可以輕鬆地創作出美麗的繪畫作品。
+Midjourney在速度和精度方面表現非常優秀，比起「Bing Image Creator」和「Stable Diffusion」算圖工具來說更加令人驚艷。此外，Midjourney還支持用戶上傳圖像並輸入關鍵字，以生成相似風格的圖像，並且在一分鐘內生成四張高品質的AI圖像。
 
-## MidJourney 有哪些功能和優勢？
+> [Midjourney付費版差異](https://bearteach.com/ciao/9094)
 
-MidJourney 有多種功能和優勢，例如：
+## MidJourney 有哪些優勢和劣勢?
 
-1. 提供多種繪圖風格：MidJourney 可以**模仿不同藝術家的風格**來繪製圖片，例如梵高、毕加索等。
-2. 可以透過 Discord 使用：MidJourney 可以與 Discord 整合，**使用者可以透過指令直接讓 AI 繪製圖片**，十分方便。
-3. 提供高品質圖片：MidJourney 使用先進的機器學習算法來生成圖片，因此繪製出來的**圖片質量非常高**。
-4. 使用方便：使用者只需上傳一張圖片或輸入指定的文字，MidJourney 就能夠**快速繪製**出一幅與之相應的圖片。
+以下是MidJourney的優勢和劣勢：
 
-## 如何使用MidJourney
+- 優勢：
+  - 高速和高精度：MidJourney在圖像生成方面表現優秀，**速度和精度都非常高**，讓您的創作能夠快速實現，且品質不打折扣。
+  - 支持上傳圖像：MidJourney允許用戶**上傳自己的圖像，並以此為基礎生成相似風格的圖像**，幫助您創造出更加獨特和多樣化的作品。
+  - 容易使用：跟Stable Diffusion相比MidJourney的使用方法非常簡單，用戶可以很快學會如何使用，省去了許多繁瑣的操作，讓您能夠專注於創作。
+
+- 劣勢：
+  - 付費限制：免費版的MidJourney僅提供**25次使用額度**，如果需要更多的功能和使用量，需要付費升級。
+  - 非完美的生成結果：儘管MidJourney在圖像生成方面表現優秀，但有時候生成的圖像可能不完美或不符合用戶的期望，需要進行進一步的調整或優化。
+
+## 如何使用MidJourney?
+### Step 1. 註冊 Midjourney 帳戶
+前往 Midjourney 官網： https://midjourney.com/
+![]( /images/content/20230414001.png)
+點擊右下角「Join the Beta」後，會跳轉到一個 Discord 的連結
+![]( /images/content/20230414002.png)
+輸入自己的「使用者名稱」後，就會建立新帳號。
+![]( /images/content/20230414003.png)
+完成帳號的建立後，會請你輸入生日，以及「電子郵件」與「密碼」。
+![]( /images/content/20230414004.png)
+到註冊的信箱驗證電子郵件。
+![]( /images/content/20230414005.png)
+### Step 2. 進入 Discord，輸入關鍵字產生圖片
+想產生 AI 圖片，你可以選擇隨便一個「newbies-xxx」的頻道，進入後會看到很多人都在嘗試讓 AI 產生作品，你可以參考他們輸入的「prompt」有哪些關鍵字。
+
+![]( /images/content/20230414006.png)
+
+看到別人的作品開始手癢了嗎？在下方的訊息輸入「/imagine」
+
+![]( /images/content/20230414007.png)
+
+然後在「prompt」框框內輸入「英文」的關鍵字，單字、句子、一連串的敘述都可以。
+下面筆者以「A fantasy castle at the edhge of a cliff, with a dragon flying in the distance breathing fire,epic,4k,lots of detail」為例，輸入後等待幾十秒就會完成，過程中你會看到圖片從朦朧到充滿細節。
+
+![]( /images/content/20230414008.png)
+
+
+Midjourney 每次都會產生 4 張圖片：
+
+U1、U2、U3、U4 與 V1、V2、V3、V4 中，「數字」代表的是「左上、右上、左下、右下」。
+U 是 Upscale 的縮寫，如果你對產出的結果滿意，可以點擊對應的 Ux，他會給你畫質更清晰的大圖。
+V 是 Variation 的縮寫，如果你想要以這張圖作延伸變化時，可以點擊對應的 Vx。
+如果全都不滿意，點擊最右側的 refresh icon 則可全部刷新。
+
+這邊我選擇 V4，用右下的圖來延伸變化。
+xxximg
+
+最後我覺得右下的圖最滿意，點擊 U4 來取得大圖。
+xxximg
+
+用瀏覽器打開就能獲得高畫質圖片嚕！
+xxximg
+
+
+
+
+---
 
 Midjourney 建立於 [Discord](https://discord.com/) 頻道上，於生成頻道「newvibe」的對話框中輸入 /imagine 的指令後，輸入預期生成圖片的英文描述。 送出後，機器人會在後台開始渲染圖片，並在對話框中即時生成預覽圖。
 
@@ -153,3 +206,5 @@ ChatGPT 會回應我們一段產圖指令，這代表我們成功把 ChatGPT 變
 [chichu.co](https://blog.chichu.co/3-steps-for-creators-to-use-chatgpt-generate-midjourney-prompt/)
 
 [kocpc.com.tw](https://www.kocpc.com.tw/archives/453331)
+
+[MidJourney 資源懶人包](https://sites.google.com/view/midjourney-resource-tips/%E9%A6%96%E9%A0%81)

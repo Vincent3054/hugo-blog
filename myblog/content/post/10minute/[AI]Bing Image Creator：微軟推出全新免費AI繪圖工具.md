@@ -28,14 +28,15 @@ thumbnailImage: images/content/notes0011.jpg
 <!--more-->
 
 # [AI]Bing Image Creator：微軟推出全新免費 AI 繪圖工具
+tags: `10minute` `AI` 
 
 {{< toc >}}
 
-## Image Creator 是什麼
+## 什麼是Image Creator?
 
 微軟 Bing 一直以來都是一個引領科技潮流的領航者，而今天他們又再次驚艷了我們！他們針對台灣用戶開放了一個免費的 AI 繪圖工具，名為「Bing Image Creator （影像建立者）」，利用 OpenAI 的 DALL-E 技術來生成圖片。
 
-如果你之前還沒有嘗試過像是 [Midjourney](https://www.managertoday.com.tw/articles/view/66586)、 [Stable diffusion](https://stablediffusionweb.com/) 等 AI 圖片生成服務的話，那麼「[Bing Image Creator （影像建立者）](https://www.bing.com/create)」絕對值得一試。它不僅可以幫助你輕鬆製作圖片，而且還可以省去你繁瑣的設置和操作。只需要用微軟帳號登入網頁，就可以免費使用，對一般用戶來說更好上手。
+如果你之前還沒有嘗試過像是 [Midjourney](https://www.managertoday.com.tw/articles/view/66586)、 [Stable Diffusion](https://stablediffusionweb.com/) 等 AI 圖片生成服務的話，那麼「[Bing Image Creator （影像建立者）](https://www.bing.com/create)」絕對值得一試。它不僅可以幫助你輕鬆製作圖片，而且還可以省去你繁瑣的設置和操作。只需要用微軟帳號登入網頁，就可以免費使用，對一般用戶來說更好上手。
 
 ## Image Creator的優勢與劣勢
 
@@ -55,7 +56,7 @@ Midjourney 是當前最流行的 AI 繪圖軟體之一，因此與其比較，�
 
 ## 如何使用 Bing Image Creator
 
-### Step 1  註冊 Microsoft 帳戶
+### Step 1. 註冊 Microsoft 帳戶
 
 如果您還沒有 Microsoft 帳戶，請先前往頁面註冊。
 
@@ -67,7 +68,7 @@ Microsoft 帳戶註冊連結：[https://signup.live.com/signup](https://signup.l
 
 ![](/images/content/20230324002.png)
 
-### Step 2 開始使用
+### Step 2. 開始使用
 
 完成註冊後就可以開始使用 Bing Image Creator 了。
 
@@ -79,7 +80,7 @@ Bing 影像建立者連結：[https://www.bing.com/create](https://www.bing.com/
 
 ![](/images/content/20230324004.png)
 
-### Step 3 輸入 Prompt 產生圖片
+### Step 3. 輸入 Prompt 產生圖片
 
 你也可以在輸入欄裡用「**英文 Prompt**」輸入你想生成甚麼圖片，再按旁邊粉紅色的建立鍵。
 
@@ -131,6 +132,7 @@ Bing 影像建立者連結：[https://www.bing.com/create](https://www.bing.com/
 2. 輸入關鍵字
 3. 貼到 Image Creator
 
+[一分鐘影片快速教學](https://youtube.com/shorts/QAyWtUNuYDA?feature=share)
 ### Step 1. 定義角色
 
 我們的目標是讓 ChatGPT 擔任 Prompt Generator (Prompt 產生器)。在 ChatGPT 的對話框輸入下方的文字
@@ -160,3 +162,6 @@ ChatGPT 會回應我們一段產圖指令，這代表我們成功把 ChatGPT 變
 ## 總結
 
 Microsoft 最新推出的 Bing Image Creator 與 Midjourney 一樣，能夠生成多種風格的圖片，並且還能識別知名品牌，讓使用者可以輕鬆創造出獨具風格的圖片。不過，Bing Image Creator 的「道德底線」相對較高，其提示詞較容易觸發紅線。此外，雖然 Bing Image Creator 在生成人像方面仍有改進的空間，但其免費使用特性使得更多人可以體驗 AI 技術所帶來的便利，這也是與 Midjourney 的主要區別之一。
+
+## 補充
+[[AI]MidJourney：如何用AI繪圖在10分鐘內創造出令人驚豔的作品](https://vincent3054.github.io/post/10minute/midjourney-ai-artist/)
