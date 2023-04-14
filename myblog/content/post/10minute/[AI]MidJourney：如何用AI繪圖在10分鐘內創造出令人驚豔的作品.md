@@ -89,13 +89,14 @@ V 是 Variation 的縮寫，如果你想要以這張圖作延伸變化時，可�
 如果全都不滿意，點擊最右側的 refresh icon 則可全部刷新。
 
 這邊我選擇 V4，用右下的圖來延伸變化。
-xxximg
+![]( /images/content/20230414009.png)
 
 最後我覺得右下的圖最滿意，點擊 U4 來取得大圖。
-xxximg
+![]( /images/content/20230414010.png)
 
 用瀏覽器打開就能獲得高畫質圖片嚕！
-xxximg
+![]( /images/content/20230414011.png)
+
 
 
 
