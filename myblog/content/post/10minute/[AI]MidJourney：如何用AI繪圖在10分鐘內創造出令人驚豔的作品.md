@@ -18,8 +18,8 @@ categories:
 date: "2023-04-14"
 tags : ["AI","10minute"]
 coverSize: partial
-coverImage: images/content/notes0006.jpg
-thumbnailImage: images/content/notes0006.jpg
+coverImage: images/content/notes0012.jpg
+thumbnailImage: images/content/notes0012.jpg
 ---
 <!--more-->
 
@@ -77,6 +77,8 @@ Midjourney在速度和精度方面表現非常優秀，比起「Bing Image Creat
 
 然後在「prompt」框框內輸入「英文」的關鍵字，單字、句子、一連串的敘述都可以。
 
+![]( /images/content/20230414014.png)
+
 下面筆者以「A fantasy castle at the edhge of a cliff, with a dragon flying in the distance breathing fire,epic,4k,lots of detail」為例，輸入後等待幾十秒就會完成，過程中你會看到圖片從朦朧到充滿細節。
 
 ![]( /images/content/20230414008.png)
@@ -98,7 +100,7 @@ V 是 Variation 的縮寫，如果你想要以這張圖作延伸變化時，可�
 
 用瀏覽器打開就能獲得高畫質圖片嚕！
 
-![]( /images/content/20230414011.png)
+![]( /images/content/20230414015.png)
 
 除此之外，官網還提供兩個寶藏級別的數據資源庫。
 
@@ -108,7 +110,7 @@ V 是 Variation 的縮寫，如果你想要以這張圖作延伸變化時，可�
 
 ![]( /images/content/20230310009.png)
 
-# 使****用 ChatGPT 產生 MidJourney 的 Prompt 繪圖指令****
+# 使用 ChatGPT 產生 MidJourney 的 Prompt 繪圖指令
 
 剛使用 MidJourney 的人都有相同的痛點：不知道怎麼寫描述清楚的 Prompt(繪圖指令)！指令寫不清楚，繪圖結果就容易讓人不滿意。
 
