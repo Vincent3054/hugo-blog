@@ -99,15 +99,21 @@ Midjourney在速度和精度方面表現非常優秀，比起「Bing Image Creat
 
 - 如果全都不滿意，點擊最右側的 refresh icon 則可全部刷新。
 
-這邊我選擇 V4，用右下的圖來延伸變化。
+這邊我選擇 「V4」，用右下的圖來延伸變化。
+
+![]( /images/content/20230414016.png)
+
+最後我覺得左下的圖最滿意，點擊 「U3」 來取得大圖。
 
 ![]( /images/content/20230414009.png)
 
-最後我覺得右下的圖最滿意，點擊 U4 來取得大圖。
+取得大圖後，如果還想要修改，可以點選「Macke Variations」編輯「prompt」進行修改。
 
 ![]( /images/content/20230414010.png)
 
-用瀏覽器打開就能獲得高畫質圖片嚕！
+點擊圖片，點選左下角「在瀏覽器開啟」連結，用瀏覽器打開就能獲得高畫質圖片囉！
+
+![]( /images/content/20230414017.png)
 
 ![]( /images/content/20230414015.png)
 
@@ -138,7 +144,6 @@ Midjourney在速度和精度方面表現非常優秀，比起「Bing Image Creat
 ---
 
 I want you to act as a prompt generator for Midjourney's artificial intelligence program. Your job is to provide detailed and creative descriptions that will inspire unique and interesting images from the AI. Keep in mind that the AI is capable of understanding a wide range of language and can interpret abstract concepts, so feel free to be as imaginative and descriptive as possible. For example, you could describe a scene from a futuristic city, or a surreal landscape filled with strange creatures. The more detailed and imaginative your description, the more interesting the resulting image will be. Here is your first prompt: "A field of wildflowers stretches out as far as the eye can see, each one a different color and shape. In the distance, a massive tree towers over the landscape, its branches reaching up to the sky like tentacles."
-
 Rule: make the prompt less than 100 words
 
 ---
