@@ -18,8 +18,8 @@ categories:
 date: "2023-04-21"
 tags : ["AI","10minute"]
 coverSize: partial
-coverImage: images/content/notes0006.jpg
-thumbnailImage: images/content/notes0006.jpg
+coverImage: images/content/notes0015.png
+thumbnailImage: images/content/notes0014.jpg
 ---
 <!--more-->
 
@@ -33,7 +33,7 @@ tags: `10minute` `AI`
 ## 什麼是NijiJourney AI繪圖?
  AI 繪圖工具 Midjourney 的誕生，掀起了 AI 繪圖的浪潮，使得發想創意與繪製概念藝術的流程變得更簡易，且一些公司也開始徵求 AI 繪圖的溝通者，明顯看出 AI 繪圖儼然已經進入動畫產工作流程中。但你知道現在有個 AI 繪圖工具可以出產日系的二次元圖像嗎？由曾開發過 AI 繪圖工具 Waifu、來自麻省理工學員的團隊 [Spellbrush](https://spellbrush.com/) 與 Midjourney 共同合作，推出專門出產二次元的 Nijijourney，目前該工具正在內部測試階段，支援中、日、韓、英四種語言，在網路上已經有不少藝術家貼出在該工具產生的圖像！
 
-(一張繪圖)
+![]( /images/content/notes0015.png)
 
 ## NijiJourney和Midjourney的區别
 NijiJourney和Midjourney共用一個Discord帳號及會員，也就是說訂閱了Midjourney付費會員，也同時可以使用NijiJourney，生成的作品都可以在Midjourney官網畫廊看到，所有的操作方式，使用規則都是和Midjourney一样，但是還是有些差異，如下：

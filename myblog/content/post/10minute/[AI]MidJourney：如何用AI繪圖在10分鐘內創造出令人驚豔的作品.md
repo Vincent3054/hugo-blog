@@ -19,7 +19,7 @@ date: "2023-04-14"
 tags : ["AI","10minute"]
 coverSize: partial
 coverImage: images/content/notes0012.jpg
-thumbnailImage: images/content/notes0012.jpg
+thumbnailImage: images/content/notes0016.png
 ---
 <!--more-->
 
