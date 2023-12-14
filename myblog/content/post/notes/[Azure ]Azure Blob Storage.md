@@ -17,7 +17,7 @@ date: "2023-06-14"
 
 toc : true
 coverSize: partial
-coverImage: images/content/notes0018.jpg
+coverImage: images/content/notes0017.jpg
 thumbnailImage: images/content/notes0017.jpg
 ---
 <!--more-->
