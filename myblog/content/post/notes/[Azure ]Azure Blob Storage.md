@@ -7,7 +7,7 @@ keywords :
 - Azure Storage
 description : "[Azure]Azure Blob Storage介紹及案例"
 author : "Sky Chen"
-slug: csharp-generic-type-constraint
+slug: azure-blob-storage
 tags : ["Azure","notes"]
 categories:
 - notes
@@ -17,8 +17,8 @@ date: "2023-06-14"
 
 toc : true
 coverSize: partial
-coverImage: images/content/notes0017.jpg
-thumbnailImage: images/content/notes0017.jpg
+coverImage: images/content/notes0021.jpg
+thumbnailImage: images/content/notes0021.jpg
 ---
 <!--more-->
 
