@@ -104,7 +104,7 @@ Visual Studio 自稱是地表最強開發工具，會這樣自稱也不是浪得
 
 ### 程式碼清除規則
  移除沒用的using、排序 import、排版程式…
- - 用快捷鍵執行清除(Contol+K 之後按 Contol+E)
+  - 用快捷鍵執行清除(Contol+K 之後按 Contol+E)
   - ![]( /images/content/20231219018.png)
   - 可以設定存檔時自動執行清除
     - ![]( /images/content/20231219019.png)
@@ -118,7 +118,7 @@ Visual Studio 自稱是地表最強開發工具，會這樣自稱也不是浪得
 ![]( /images/content/20231219022.png)
 
 
-### Dev Tunnel: 讓使用者連到開發機測試
+### Dev Tunnel 讓使用者連到開發機測試
 ![]( /images/content/20231219023.png)
 
 ![]( /images/content/20231219024.png)
