@@ -31,7 +31,7 @@ Visual Studio 自稱是地表最強開發工具，會這樣自稱也不是浪得
 
 已下介紹的功能，不限於社群、Professional、Enterprise都可以使用。
 
-## Visual Studio 2022新增的功能
+## Visual Studio 2022 開發工具新功能設定
 ### 更新Visual Studio
 更新VS至17.X版本以上
 ![]( /images/content/20231219001.png)
@@ -63,17 +63,16 @@ Visual Studio 自稱是地表最強開發工具，會這樣自稱也不是浪得
 
 
 ### Brace pair color 成對大括弧顏色標示
-![]( /images/content/20231219007.png)
 - 選項>文字編輯器>一般>顯示>啟用成對大括弧顏色標示
-    - ![]( /images/content/20231219008.png)
+- ![]( /images/content/20231219008.png)
 
 ### View Zero-Width characters 顯示零寬度字元
-![]( /images/content/20231219009.png)
-![]( /images/content/20231219010.png)
+- ![]( /images/content/20231219010.png)
 - 選項>文字編輯器>一般>顯示>顯示零寬自原
 ![]( /images/content/20231219011.png)
 
 ### 索引標籤視窗相關(TAB)
+- `Control+Tab` 顯示開啟檔案清單來切換
 - 清單靠左、靠右、置頂顯示
 - 清單依「專案」上色
     - ![]( /images/content/20231219012.png)
@@ -88,7 +87,6 @@ Visual Studio 自稱是地表最強開發工具，會這樣自稱也不是浪得
 ^.*\.js$
 ^.*\.(json|editorconfig|config)$
 ```
-- `ctrl+tab` 顯示開啟檔案清單來切換
   
 ### Sticky scroll 自黏捲動
 
@@ -99,7 +97,7 @@ Visual Studio 自稱是地表最強開發工具，會這樣自稱也不是浪得
     - ![]( /images/content/20231219015.gif)
 
 ### 比較檔案差異
-方案總管>檔案右鍵>相對於...
+- 方案總管>檔案右鍵>相對於...
 ![]( /images/content/20231219016.png)
 
 ![]( /images/content/20231219017.png)
