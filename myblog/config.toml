@@ -117,7 +117,7 @@ canonifyurls = true
   identifier = "personal"
   name = "Personal"
   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-brands fa-react\" aria-hidden=\"true\"></i>"
-  url = "https://reactgatsbypersonalwebsite.gatsbyjs.io/resume/"
+  url = "https://rad-gaufre-beb6ed.netlify.app/resume/"
 
 
 
