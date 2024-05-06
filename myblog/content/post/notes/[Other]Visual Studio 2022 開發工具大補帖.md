@@ -126,3 +126,24 @@ Visual Studio 自稱是地表最強開發工具，會這樣自稱也不是浪得
 * 可設定存取權限: 私人、同組織、公開
 * 有一些限制
 * [詳細介紹](https://learn.microsoft.com/zh-tw/connectors/custom-connectors/port-tunneling)
+
+## 使用 HttpRepl 來測試 Web API
+
+- 新增http檔案
+  - ![]( /images/content/20231219025.png)
+
+```
+### GET
+GET https://www.google.com.tw/
+Content-Type:application/json
+
+### POST
+POST https://alumni.nccu.edu.tw/cgi-bin/login
+Content-Type:application/json
+
+{
+  "USERID": "ID",
+  "PASSWD": "P@S$W0rd"
+}
+
+```
