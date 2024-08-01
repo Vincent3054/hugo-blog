@@ -51,6 +51,7 @@ ChatGPT 是由 OpenAI 開發的自然語言處理（NLP)模型「GPT-3」延伸�
 
 ChatGPT 二個月內，已經吸引超過1億人使用，而 ChatGPT 功能強大，從客服對話、故事創作、翻譯、修改文法、寫詩、歌詞、文字整理，甚至是寫程式都可以。
 
+.
 ![]( /images/content/20230223001.png)
 
 #### GPT-3 VS GPT-3.5
