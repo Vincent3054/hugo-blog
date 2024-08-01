@@ -18,8 +18,8 @@ date: "2024-08-01"
 
 toc : true
 coverSize: partial
-coverImage: images/content/notes0017.jpg
-thumbnailImage: images/content/notes0017.jpg
+coverImage: images/content/notes0023.jpg
+thumbnailImage: images/content/notes0023.jpg
 ---
 <!--more-->
 
