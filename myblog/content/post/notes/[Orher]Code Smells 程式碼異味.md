@@ -25,7 +25,7 @@ thumbnailImage: images/content/notes0023.jpg
 
 # Code Smells 程式碼異味
 tags: `Other` `notes`
-
+## 目錄
 {{< toc >}}
 ## 前言
 這篇文章是根據《重構：改善既有程式的設計（第二版）》的內容撰寫，並參考了相關部落格文章和 RefactoringGuru 的資源，記錄了關於程式碼異味（Code Smells）的筆記。
@@ -34,6 +34,7 @@ tags: `Other` `notes`
 程式碼異味 (Code Smells) 是指程式碼中存在的一些設計或實作上的問題，這些問題雖然不會直接導致程式錯誤，但會增加程式碼的複雜度、降低可讀性或維護性，並可能隱藏更大的潛在問題。程式碼異味通常是重構的信號，提示開發者應該對程式碼進行改進以提高其品質。
 
 ## 3.1 Mysterious Name (神秘的名稱)
+### Code Smells
 - 是指程式碼中使用不明確或不具描述性的命名，讓人難以理解其用途或意圖。這樣的名稱會讓程式碼變得難以閱讀和維護
 ### 解法
 為了避免這種情況，應該使用清晰且具描述性的名稱，以便其他開發者能夠快速理解程式碼的功能。
@@ -41,6 +42,7 @@ tags: `Other` `notes`
 - 6.7 Rename Variable (更改變數名稱)
 - 9.2 Rename Field (更改欄位名稱)
 
+[返回目錄](#目錄)
 ## 3.2 Duplicated Code (重複的程式碼)
 ### Code Smells
 - 是指在多個地方出現相同或非常相似的程式碼。這會增加維護的難度，因為修改一處可能需要同步修改多處。
@@ -51,6 +53,7 @@ tags: `Other` `notes`
 - 8.6 Slide Statements (移動陳述式)
 - 12.1 Pull Up Method (提升方法)
 
+[返回目錄](#目錄)
 ## 3.3 Long Function (冗長的函式) Long Method
 ### Code Smells
 - 是指一個函式的程式碼過長，通常超出了一個函式應該負責的單一責任範疇。這樣的函式不僅難以理解和測試，也容易引入錯誤。
@@ -74,6 +77,7 @@ tags: `Other` `notes`
 - 10.4 Replace Conditional with Polymorphism (將條件式換成多型)
 - 8.7 Split Loop (拆開迴圈)
 
+[返回目錄](#目錄)
 ## 3.4 Long Parameter List (冗長的參數列)
 ### Code Smells
 - 是指一個方法或函數需要接收過多的參數，這不僅會讓代碼難以理解和維護，還容易導致錯誤。通常這是因為該方法試圖執行過多的責任或缺乏適當的封裝
@@ -86,12 +90,14 @@ tags: `Other` `notes`
 - 如果許多參數總是同時出現，可以用 6.8 Introduce Parameter Object (使用參數物件)結合它們。
 - 如果有參數被當成旗標來指定不同的行為，可以使用 11.3 Remove Flag Argument (移除旗標引數)
 
+[返回目錄](#目錄)
 ## 3.5 Global Data (全域變數)
 ### Code Smells
 - 全域資料的問題在於它可被基礎程式的任何地方修改，卻無法察覺究竟有那些程式碼接觸它。
 ### 解法
 - 6.6 Encapsulate Variable (封裝變數)
 
+[返回目錄](#目錄)
 ## 3.6 Mutable Data (可變資料)
 ### Code Smells
 - 可變動的，也就是定義好的 data 會隨著不同情況做變動。mutable 很容易會有無法預期的 bug 產生。
@@ -111,6 +117,7 @@ tags: `Other` `notes`
 - 6.10 Combine Functions into Transform (將函式組成轉換函式)
 - 9.4 Change Reference to Value (將參考改成值)
 
+[返回目錄](#目錄)
 ## 3.7 Divergent Change (發散式修改)
 ### Code Smells
 - 發散式修改就是，當你對類別進行修改時，您會發現自己必須更改許多不相關的方法。
@@ -124,6 +131,7 @@ tags: `Other` `notes`
 - 8.1 Move Function (移動函式)
 - 7.5 Extract Class (提取類別)
 
+[返回目錄](#目錄)
 ## 3.8 Shotgun Surgery (散彈式修改)
 ### Code Smells
 - 一但程式出現了shotgun surgery這種「牽一髮而動全身」的症狀，每次修改所影響的範圍很大，因此也增加了測試的困難度。最後，分散在不同類別的相同或相似責任，也會增加理解系統的困難度。
@@ -141,6 +149,7 @@ tags: `Other` `notes`
 - 6.10 Combine Functions into Transform (將函式組成轉換函式)
 - 6.11 Split Phase (拆成不同階段)
 
+[返回目錄](#目錄)
 ## 3.9 Feature Envy（依戀情結）
 ### Code Smells
 - 關於Feature Envy 的定義，作者指出：「函式對於某個 class 的興趣高過對自己所處之 host class 的興趣。」
@@ -160,6 +169,7 @@ tags: `Other` `notes`
 那如果一個函式跟ClassA拿東西又跟ClassB拿東西又跟自己拿東西，那這個函式到底應該要放到哪裡去呢?
 - 原則上哪個Class被這個函式使用的最多就該去哪
 
+[返回目錄](#目錄)
 ## 3.10 Data Clumps (資料泥團)
 ### Code Smells
 - 關於Data Clumps 的定義，作者指出：「資料項目(data items)就像小孩子，喜歡成群結隊的待在一起，你常常可以在很多不同的地方看到相同的幾個 data item 同時出現」
@@ -183,6 +193,7 @@ tags: `Other` `notes`
 那要怎麼判斷哪些人應該一起被放進別的物件裡呢? 
 - 只需要把其中一個刪掉，找出其他跟著失去意義的資料，那這些全部都應該一起打包成新物件
 
+[返回目錄](#目錄)
 ## 3.11 Primitive Obsession (基本型態偏執)
 ### Code Smells
 - 不要執著於使用一堆基本型別(Primitive) 在物件的世界裡該用物件的時候就用物件
@@ -193,15 +204,15 @@ tags: `Other` `notes`
 - 會發生的原因就是「懶」
     - 以Range來舉例，這裡就兩個int搞定，一個表示start，一個表示end 就好了啊，幹嘛還要寫新的類別
 
-## 解法
+### 解法
 常見的解法
 - 7.3 Replace Primitive with Object (將基本元素換成物件)
 - 12.6 Replace Type Code with Subclasses (將型別代碼換成子類別)
 - 7.5 Extract Class (提取函式)
 - 6.8 Introduce Parameter Object (使用參數物件)
 
+[返回目錄](#目錄)
 ## 3.12 Repeated Switchess (重複的切換邏輯)
-
 ### Code Smel
 - 作者在初版指出：「多數時候當我們看到Switch Statements時，我們應該考慮使用多型（Polymorphism）來取代他。」
     - 因為當時開發者大多忽視了物件導向中多型的價值，所以希望能矯正這樣的風氣
@@ -214,6 +225,7 @@ tags: `Other` `notes`
 用多形來取代重複的Switchess吧!
 - 10.4 Replace Conditional with Polymorphism (將條件式換成多型)
 
+[返回目錄](#目錄)
 ## 3.13 Loops (迴圈)
 ### Code Smel
 - 最早的程式，難免會需要用到Loops，因為當時沒有什麼替代品。
@@ -224,7 +236,7 @@ tags: `Other` `notes`
 別用for迴圈了，改用map和filter吧!
 - 8.8 Replace Loop With Pipeline (將迴圈改成流程)
 
-
+[返回目錄](#目錄)
 ## 3.14 Lazy Element (冗員元素)
 ### Code Smel
 - 當你在專案內發現存在一個無所事事的元素或類別，幾乎沒有實作任何方法與職責，正是屬於這種程式碼氣味。
@@ -239,6 +251,7 @@ tags: `Other` `notes`
 - 6.2 Inline Function (將函式內聯)
 - 7.6 Inline Class (內聯類別)
 
+[返回目錄](#目錄)
 ## 3.15 Speculative Generality (畫大餅)
 ### Code Smel
 - 當我們撰寫的程式碼是用來應對未來需求，但現實中卻可能永遠都派不上用場的這種情況。
@@ -254,6 +267,7 @@ tags: `Other` `notes`
 - 如果函式有一些用不到的參數，可以用 6.5 Change Function Declaration (修改函式宣告式) 來移除它們。
 - 如果某個函式或類別的使用方只有測試程式，應該刪除測試案例，並執行8.9 Remove Dead Code (移除死碼)。
 
+[返回目錄](#目錄)
 ## 3.16 Temporary Field (暫時欄位)
 ### Code Smel
 - 當一個類別或物件有一個或多個欄位只有在特定情況下才會使用到，例如在方法呼叫階段用來暫時儲存資料，其他多數時候只是空值或沒有相關的值。
@@ -267,6 +281,7 @@ tags: `Other` `notes`
 - 8.1 Move Function (移動函式)
 - 10.5 Introduce Special Case(加入特例)/Introduce Null Object (引入Null對象)
 
+[返回目錄](#目錄)
 ## 3.17 Message Chains (過度耦合的訊息鏈)
 ### Code Smel
 - 當我們執行方法時會需要呼叫一個物件，然後該物件又需要呼叫另外一個物件，以此類推長長串在一起
@@ -280,6 +295,7 @@ tags: `Other` `notes`
 - 6.1 Extract Function (提取函式)
 - 8.1 Move Function (移動函式)
 
+[返回目錄](#目錄)
 ## 3.18 Middle Man (中間人)
 ### Code Smel
 - 如果一個類只執行一個操作，將工作委派給另一個類，除了左手轉右手之外沒有其他存在的價值與意義。
@@ -292,6 +308,7 @@ tags: `Other` `notes`
 - 12.10 Replace Subclass with Delegate (將子類別換成委託類別)
 - 12.11 Replace Superclass with Delegate (將超類別換成委託類別)
 
+[返回目錄](#目錄)
 ## 3.19 Insider Trading (內幕交易)
 ### Code Smel
 - 或稱Inappropriate Intimacy（不當的親密關係），兩個類別過於親密，花太多時間去研究彼此的private成分
@@ -308,6 +325,7 @@ tags: `Other` `notes`
 - 12.10 Replace Subclass with Delegate (將子類別換成委託類別)
 - 12.11 Replace Superclass with Delegate (將超類別換成委託類別)
 
+[返回目錄](#目錄)
 ## 3.20 Large Class (龐大的類別)
 ### Code Smel
 - Large class和long method(Function)壞味道很像，都可能造成duplicated code以及降低重複使用的可能性。
@@ -322,6 +340,7 @@ tags: `Other` `notes`
     - 12.8 Extract Superclass (提取超類別) 
     - 12.6 Replace Type Code with Subclasses (將型別代碼換成子類別) 
 
+[返回目錄](#目錄)
 ## 3.21 Alternative Classes with Different Interfaces (異曲同工的類別)
 ### Code Smel
 - 兩個類別名稱不同但做的是一樣的事
@@ -335,6 +354,7 @@ tags: `Other` `notes`
 - 8.1 Move Function (移動函式)
 - 12.8 Extract Superclass (提取超類別)
 
+[返回目錄](#目錄)
 ## 3.22 Data Class (呆板的資料類別)
 ### Code Smel
 - Data Class是指只有屬性（資料成員），或是存取這些屬性的getter/setter函數，但卻沒有其他行為函數的類別。
@@ -348,6 +368,7 @@ tags: `Other` `notes`
 - 使用 8.1 Move Function (移動函式) 將行為邏輯移入資料類別。
 - 如果無法移動整個函式，使用 6.1 Extract Function (提取函式)
 
+[返回目錄](#目錄)
 ## 3.23 Refused Bequest (被拒絕的遺產)
 ### Code Smel
 - 指的是程式碼過度利用繼承
@@ -362,6 +383,7 @@ tags: `Other` `notes`
   - 12.10 Replace Subclass with Delegate (將子類別換成委託類別)
   - 12.11 Replace Superclass with Delegate (將超類別換成委託類別)
 
+[返回目錄](#目錄)
 ## 3.24 Comments (過多的註解)
 ### Code Smel
 - 作者強調Comment如果用的好，算不上是壞味道，甚至是好味道。但在很多情況下，註解被當成是一種「障眼法」，用來掩飾「寫得亂七八糟，沒人看得懂的程式碼。」
@@ -376,9 +398,8 @@ tags: `Other` `notes`
 - 6-5 Change Function Declaration (修改函式宣告式)
 - 10-6 Introduce Assertion (加入斷言)
 
-
 ## 參考資料
-[Refactoring.Guru](https://refactoring.guru/)
-[jyt0532's Blog](https://www.jyt0532.com/)
-[搞笑談軟工]https://teddy-chen-tw.blogspot.com/
-[《重構 - 改善既有程式的設計》Martin Fowler]()
+- [Refactoring.Guru](https://refactoring.guru/)
+- [jyt0532's Blog](https://www.jyt0532.com/)
+- [搞笑談軟工](https://teddy-chen-tw.blogspot.com/)
+- [《重構 - 改善既有程式的設計》Martin Fowler]()
