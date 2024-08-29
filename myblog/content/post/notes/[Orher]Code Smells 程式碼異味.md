@@ -1,5 +1,5 @@
 ---
-title: "Code Smells 程式碼異味"
+title: "[Other]Code Smells 程式碼異味"
 keywords :
 - CodeSmells
 - 程式碼異味
@@ -25,7 +25,7 @@ thumbnailImage: images/content/notes0023.jpg
 
 # Code Smells 程式碼異味
 tags: `Other` `notes`
-## 目錄
+
 {{< toc >}}
 ## 前言
 這篇文章是根據《重構：改善既有程式的設計（第二版）》的內容撰寫，並參考了相關部落格文章和 RefactoringGuru 的資源，記錄了關於程式碼異味（Code Smells）的筆記。
