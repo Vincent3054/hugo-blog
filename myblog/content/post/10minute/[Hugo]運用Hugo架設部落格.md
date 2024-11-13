@@ -110,7 +110,7 @@ git submodule add https://github.com/kakawait/hugo-tranquilpeak-theme.git themes
 
 ```sql=
 //也可手動開啟檔案修改
-echo 'theme = "tranquilpeak"' >> config.toml
+echo 'theme = "hugo-tranquilpeak-theme"' >> config.toml
 ```
 為了在本地跑起來時可以看到點內容，我們先新增一篇文章
 
