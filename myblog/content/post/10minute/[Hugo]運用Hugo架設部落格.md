@@ -106,7 +106,7 @@ Error: "D:\github\myblog\config.toml:1:1": unmarshal failed: toml: key theme is 
 git init
 git submodule add https://github.com/kakawait/hugo-tranquilpeak-theme.git themes/tranquilpeak
 ```
-編輯 config.toml **指定佈景名稱為 tranquilpeak**
+編輯 config.toml **指定佈景名稱為 hugo-tranquilpeak-theme**
 
 ```sql=
 //也可手動開啟檔案修改
