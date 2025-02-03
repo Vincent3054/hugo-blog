@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "77dacce38c5a3c45",
+        "id": "4188759c2d271fb1",
         "type": "tabs",
         "children": [
           {
-            "id": "8708af70819c25a8",
+            "id": "f628ef0bba95b2c2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/10minute/[AI]串接OpenAI到LineBot，建立屬於自己的AI助理.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "[AI]串接OpenAI到LineBot，建立屬於自己的AI助理"
+              "title": "新分頁"
             }
           }
         ]
@@ -162,10 +158,10 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "8708af70819c25a8",
+  "active": "f628ef0bba95b2c2",
   "lastOpenFiles": [
-    "images/content/20230217001.png.md",
     "content/post/10minute/[AI]串接OpenAI到LineBot，建立屬於自己的AI助理.md",
+    "images/content/20230217001.png.md",
     "images/content",
     "images",
     "content/post/10minute/[AI]Bing Image Creator：微軟推出全新免費AI繪圖工具.md",
