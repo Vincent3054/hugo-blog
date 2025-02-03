@@ -17,7 +17,7 @@ baseURL = "https://Vincent3054.github.io/"
 languageCode = "zh-tw"
 defaultContentLanguage = "zh-tw"    # 預設語系
 title = "AI筆記"
-theme = "hugo-tranquilpeak-theme""
+theme = "tranquilpeak"
 disqusShortname = "https-vincent3054-github-io"
 googleAnalytics = "G-KMNNV397T8"
 paginate = 7
@@ -358,7 +358,7 @@ canonifyurls = true
   [params.comment]
     [params.comment.disqus]
       enable = false
-      shortname = "tranquilpeak"
+      shortname = "hugo-tranquilpeak-theme"
     [params.comment.gitalk]
       enable = true
       clientId = "13ab4cf55a20f60eaae5"
